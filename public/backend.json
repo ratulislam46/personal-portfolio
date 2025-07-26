@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Node.js",
+    "description": "A JavaScript runtime used for building fast and scalable server-side applications.",
+    "image": "https://img.icons8.com/color/96/nodejs.png"
+  },
+  {
+    "id": 2,
+    "title": "Express.js",
+    "description": "A minimal and flexible Node.js web application framework.",
+    "image": "https://img.icons8.com/color/96/express-js.png"
+  },
+  {
+    "id": 3,
+    "title": "MongoDB",
+    "description": "A NoSQL database that stores data in flexible, JSON-like documents.",
+    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    "id": 4,
+    "title": "Firebase",
+    "description": "A platform by Google offering backend services like authentication and database.",
+    "image": "https://img.icons8.com/color/96/firebase.png"
+  },
+  {
+    "id": 5,
+    "title": "REST API",
+    "description": "Architectural style for designing networked applications using HTTP.",
+    "image": "https://i.postimg.cc/pdf6Ndsn/667-removebg-preview.png"
+  },
+  {
+    "id": 6,
+    "title": "JWT Auth",
+    "description": "Authentication system using JSON Web Tokens for secure access.",
+    "image": "https://i.postimg.cc/tC6dvMSs/images-1-removebg-preview.png"
+  }
+]
