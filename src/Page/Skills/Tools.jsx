@@ -15,7 +15,7 @@ const Tools = () => {
         <div>
             <section className="py-10 px-4 md:px-8">
                 {/* Section Title */}
-                <div className="text-center mb-10">
+                <div className="text-center text-2xl font-bold text-gray-400 mb-10">
                     <p className="mt-2">Explore My Others Skillset</p>
                     <div className="w-20 h-1 bg-blue-500 mx-auto mt-3 rounded-full" />
                 </div>

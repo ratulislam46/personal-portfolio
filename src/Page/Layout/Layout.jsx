@@ -12,7 +12,7 @@ const Layout = () => {
             <main>
                 <Outlet></Outlet>
             </main>
-            <footer>
+            <footer className='w-11/12 mx-auto'>
                 <Footer></Footer>
             </footer>
         </div>

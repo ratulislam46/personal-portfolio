@@ -11,7 +11,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar">
+        <div className="navbar w-11/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a className="text-xl">Ratul Islam</a>
             </div>
             <div className="navbar-center hidden md:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal">
                     {
                         links
                     }
