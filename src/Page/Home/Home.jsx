@@ -6,11 +6,11 @@ const Home = () => {
     return (
         <div className='w-11/12 mx-auto'>
             {/* about me  */}
-            <section className='border'>
+            <section className='border mb-6'>
                 <About></About>
             </section>
             {/* skill section  */}
-            <section className='border'>
+            <section className='border mb-6'>
                 <Skills></Skills>
             </section>
         </div>

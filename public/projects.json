@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Delivery Tracker App",
+    "description": "A full-featured delivery tracking web app with parcel status, map, and admin dashboard.",
+    "technologies": ["React", "Tailwind CSS", "React Router", "MongoDB"],
+    "image": "/images/delivery-tracker.png",
+    "liveLink": "https://your-live-site.com/delivery-tracker",
+    "githubLink": "https://github.com/arfanratul/delivery-tracker"
+  },
+  {
+    "id": 2,
+    "title": "FitNest - Fitness Booking Platform",
+    "description": "A MERN-based platform for booking personal trainers, scheduling slots, and making payments with Stripe.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "image": "/images/fitnest.png",
+    "liveLink": "https://your-live-site.com/fitnest",
+    "githubLink": "https://github.com/arfanratul/fitnest"
+  },
+  {
+    "id": 3,
+    "title": "Tree Marketplace",
+    "description": "A React project where users can upload, browse, and buy full-grown trees online.",
+    "technologies": ["React", "Tailwind", "Firebase", "Express"],
+    "image": "/images/tree-marketplace.png",
+    "liveLink": "https://your-live-site.com/tree-market",
+    "githubLink": "https://github.com/arfanratul/tree-market"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with React and Tailwind, featuring projects, skills, and CV download.",
+    "technologies": ["React", "Tailwind CSS"],
+    "image": "/images/portfolio.png",
+    "liveLink": "https://your-live-site.com",
+    "githubLink": "https://github.com/arfanratul/portfolio"
+  }
+]

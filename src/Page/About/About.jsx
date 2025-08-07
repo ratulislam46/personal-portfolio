@@ -6,7 +6,7 @@ const About = () => {
     <section>
       <div className="px-4 flex flex-col justify-center md:flex-row-reverse items-center py-12">
         {/* Profile Image */}
-        <div className="rounded-full overflow-hidden md:mb-0">
+        <div className="rounded-full overflow-hidden mb-8 md:mb-0">
           <img
             src={profileImg}
             alt="ArFan RaTul"
@@ -16,8 +16,8 @@ const About = () => {
 
         {/* Text Content */}
         <div className="text-center md:text-left">
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <h3 className="text-5xl font-bold mb-4 text-gray-400">Passionate Developer from Bangladesh</h3>
+          <h2 className="xs:text-xl md:text-2xl lg:text-3xl font-bold mb-4">About Me</h2>
+          <h3 className="xs:text-2xl md:text-3xl lg:text-5xl font-bold mb-4 text-gray-400">Passionate Developer from Bangladesh</h3>
           <p className="mb-4">
             I’m <span className="font-semibold">Ratul Islam</span>, a dedicated and
             self-motivated web developer with a strong passion for building

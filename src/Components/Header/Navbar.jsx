@@ -25,7 +25,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="text-xl">Ratul Islam</a>
+                <a className="text-3xl font-bold"><span>RATUL</span> <span>ISLAM</span></a>
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal">
