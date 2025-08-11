@@ -5,33 +5,7 @@ import { Link } from "react-router";
 const Footer = () => {
     return (
         <div className="flex md:block justify-center container mx-auto">
-            <div className='py-6 text-base-content'>
-                <div className="flex justify-center gap-3">
-                    <Link to='https://web.facebook.com/mdratul.islam.46/'
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <CiFacebook size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg" />
-                    </Link>
-                    <Link to='https://www.instagram.com/arfan_ratul_46/'
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <FaInstagram size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></FaInstagram>
-                    </Link>
-                    <Link to='https://www.linkedin.com/in/ratulislambd/'
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <CiLinkedin size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></CiLinkedin>
-                    </Link>
-                    <Link to='https://github.com/ratulislam46'
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <FaGithub size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></FaGithub>
-                    </Link>
-                </div>
-                <div className="mt-6">
-                    <p className="text-center">© 2025 Md Ratul Howlader</p>
-                </div>
-            </div>
+            <p className="text-center py-4">© 2025 Md Ratul Howlader. All rights reserved.</p>
         </div>
     );
 };
