@@ -4,7 +4,7 @@ import About from '../About/About';
 
 const Home = () => {
     return (
-        <div className='container mx-auto mt-20'>
+        <div className='container mx-auto mt-28 md:mt-28 lg:mt-30 '>
             {/* about me  */}
             <section className='border mb-6'>
                 <About></About>

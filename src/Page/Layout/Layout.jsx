@@ -9,7 +9,7 @@ const Layout = () => {
             <header className='border'>
                 <Navbar></Navbar>
             </header>
-            <main className='min-h-[calc(100vh-200px)]'>
+            <main className='min-h-[calc(100vh-100px)]'>
                 <Outlet></Outlet>
             </main>
             <footer className='border'>

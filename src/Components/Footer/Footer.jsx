@@ -1,5 +1,5 @@
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
 
 const Footer = () => {
@@ -18,10 +18,15 @@ const Footer = () => {
                     >
                         <FaInstagram size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></FaInstagram>
                     </Link>
-                    <Link to='https://www.linkedin.com/in/ratul-islam-699b38372/?trk=opento_sprofile_details'
+                    <Link to='https://www.linkedin.com/in/ratulislambd/'
                         target="_blank" rel="noopener noreferrer"
                     >
                         <CiLinkedin size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></CiLinkedin>
+                    </Link>
+                    <Link to='https://github.com/ratulislam46'
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        <FaGithub size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></FaGithub>
                     </Link>
                 </div>
                 <div>

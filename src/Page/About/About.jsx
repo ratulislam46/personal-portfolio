@@ -24,7 +24,7 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">Passionate Developer from Bangladesh</h3>
           <p className="mb-4">
-            I’m <span className="font-semibold">Ratul Islam</span>, a dedicated and
+            I’m <span className="font-semibold">Md Ratul Howlader</span>, a dedicated and
             self-motivated web developer with a strong passion for building
             modern, responsive, and user-friendly websites and applications.
           </p>
