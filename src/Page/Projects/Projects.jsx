@@ -20,8 +20,9 @@ const Projects = () => {
     if (loading) return <Loading />
 
     return (
-        <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className='mx-2 md:mx-0'>
+            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10'>My Projects</h1>
+            <div data-aos="zoom-in" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     projects?.map(project =>
                         <SingleProject

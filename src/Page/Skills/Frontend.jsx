@@ -21,11 +21,11 @@ const Frontend = () => {
                 </div>
 
                 {/* Grid Cards */}
-                <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3">
+                <div data-aos="zoom-in" className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3">
                     {skills.map((skill, index) => (
-                        <motion.div
+                        <div
                             key={skill.id}
-                            className="shadow-lg hover:shadow-xl rounded-2xl py-6 px-2 flex flex-col items-center text-center transition duration-300 bg-base-100 border border-gray-200"
+                            className="shadow-lg hover:shadow-xl rounded-2xl py-6 px-2 flex flex-col items-center text-center transition duration-300 bg-base-100 "
                             whileHover={{ scale: 1.05 }}
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ const Frontend = () => {
                             />
                             <h3 className="text-xl text-base-content font-semibold">{skill.title}</h3>
                             {/* <p className="text-sm mt-2 px-2">{skill.description}</p> */}
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </section>

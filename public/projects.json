@@ -6,8 +6,8 @@
     "technologies": [
       "React",
       "Tailwind CSS",
-      "React Router",
       "javaScript",
+      "Firebase",
       "MongoDB",
       "Firebase",
       "Node.js",
@@ -24,8 +24,7 @@
     "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
     "technologies": [
       "React",
-      "Tailwind CSS",
-      "React Router",
+      "Firebase",
       "javaScript",
       "MongoDB",
       "Node.js",
@@ -41,8 +40,9 @@
     "title": "FitNest - Fitness Booking Platform",
     "description": "FitNess is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
     "technologies": [
-      "React",
       "javaScript",
+      "React",
+      "Firebase",
       "Node.js",
       "Express",
       "MongoDB",

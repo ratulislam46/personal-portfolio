@@ -15,7 +15,7 @@ const Contact = () => {
                 </h2>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center mt-10 gap-10">
+            <div data-aos="zoom-in" className="flex flex-col md:flex-row items-center justify-center mt-10 gap-10">
                 {/* home */}
                 <div className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
