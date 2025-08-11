@@ -1,24 +1,10 @@
 import React from "react";
-import profileImg from "../../../public/assets/IMG-20220721-WA0001-01-01-removebg-preview (2).png";
-import toast from "react-hot-toast";
 
 const About = () => {
 
-  const handleDwnldBtn = () => {
-    toast.success('CV Cooming Soon')
-  }
   return (
     <section>
       <div className="px-4 flex flex-col justify-center md:flex-row-reverse items-center py-12">
-        {/* Profile Image */}
-        <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden mb-8 md:mb-0 flex-shrink-0 shadow-lg border-4 border-primary">
-          <img
-            src={profileImg}
-            alt="ArFan RaTul"
-            className="w-full h-full object-cover"
-          />
-        </div>
-
         {/* Text Content */}
         <div className="text-center text-base-content md:text-left">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
@@ -41,15 +27,6 @@ const About = () => {
             Every day, I challenge myself to improve by learning new tools,
             exploring modern design, and building meaningful projects.
           </p>
-
-          <a
-            onClick={handleDwnldBtn}
-            // href="/ArFan_RaTul_CV.pdf"
-            download
-            className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
-          >
-            Download CV
-          </a>
         </div>
       </div>
     </section>

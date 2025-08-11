@@ -5,9 +5,8 @@ import { Link } from "react-router";
 const Footer = () => {
     return (
         <div className="flex md:block justify-center container mx-auto">
-            <div className='md:flex justify-between py-8 text-base-content'>
-                <div><h2 className='text-xl'>Terms & Conditions</h2></div>
-                <div className="flex justify-center gap-3 my-4 md:my-0">
+            <div className='py-6 text-base-content'>
+                <div className="flex justify-center gap-3">
                     <Link to='https://web.facebook.com/mdratul.islam.46/'
                         target="_blank" rel="noopener noreferrer"
                     >
@@ -29,8 +28,8 @@ const Footer = () => {
                         <FaGithub size={40} className="border p-2 rounded-md btn btn-outline btn-info btn-lg"></FaGithub>
                     </Link>
                 </div>
-                <div>
-                    <p className="text-center">© 2025 Ratul Islam.</p>
+                <div className="mt-6">
+                    <p className="text-center">© 2025 Md Ratul Howlader</p>
                 </div>
             </div>
         </div>
