@@ -19,18 +19,12 @@
   },
   {
     "id": 4,
-    "title": "Firebase",
-    "description": "A platform by Google offering backend services like authentication and database.",
-    "image": "https://img.icons8.com/color/96/firebase.png"
-  },
-  {
-    "id": 5,
     "title": "REST API",
     "description": "Architectural style for designing networked applications using HTTP.",
     "image": "https://i.postimg.cc/pdf6Ndsn/667-removebg-preview.png"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "JWT Auth",
     "description": "Authentication system using JSON Web Tokens for secure access.",
     "image": "https://i.postimg.cc/tC6dvMSs/images-1-removebg-preview.png"

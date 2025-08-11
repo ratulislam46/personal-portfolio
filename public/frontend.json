@@ -33,5 +33,11 @@
     "description": "A JavaScript library for building fast and interactive user interfaces.",
     "image": "https://img.icons8.com/color/96/react-native.png",
     "icon": "FaReact"
+  },
+  {
+    "id": 6,
+    "title": "Firebase",
+    "description": "A platform by Google offering backend services like authentication and database.",
+    "image": "https://img.icons8.com/color/96/firebase.png"
   }
 ]

@@ -15,9 +15,9 @@ const Tools = () => {
         <div>
             <section className="py-10 px-4 md:px-8">
                 {/* Section Title */}
-                <div className="text-center text-2xl font-bold text-gray-400 mb-10">
+                <div className="text-center text-2xl font-bold text-base-100 mb-10">
                     <p className="mt-2">Explore My Others Skillset</p>
-                    <div className="w-20 h-1 bg-blue-500 mx-auto mt-3 rounded-full" />
+                    <div className="w-20 h-1 bg-primary mx-auto mt-3 rounded-full" />
                 </div>
 
                 {/* Grid Cards */}
@@ -36,8 +36,8 @@ const Tools = () => {
                                 alt={skill.title}
                                 className="w-16 h-16 object-contain mb-4"
                             />
-                            <h3 className="text-xl font-semibold">{skill.title}</h3>
-                            <p className="text-sm mt-2 px-2">{skill.description}</p>
+                            <h3 className="text-xl text-base-100 font-semibold">{skill.title}</h3>
+                            {/* <p className="text-sm mt-2 px-2">{skill.description}</p> */}
                         </motion.div>
                     ))}
                 </div>

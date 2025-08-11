@@ -1,4 +1,5 @@
 import React from 'react';
+import toast from 'react-hot-toast';
 import { NavLink } from 'react-router';
 
 const Navbar = () => {
@@ -9,6 +10,10 @@ const Navbar = () => {
         <li><NavLink to='/about'>Skills</NavLink></li>
         <li><NavLink to='/about'>Experience</NavLink></li>
     </>
+
+    const handleDwnldBtn = () => {
+        toast.success('CV Cooming Soon')
+    }
 
     return (
         <div className="navbar w-11/12 mx-auto">
@@ -25,7 +30,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="text-3xl font-bold"><span>RATUL</span> <span>ISLAM</span></a>
+                <a className="text-3xl text-primary font-bold"><span>RATUL</span> <span>ISLAM</span></a>
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal">
@@ -35,7 +40,14 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a
+                    onClick={handleDwnldBtn}
+                    // href="/ArFan_RaTul_CV.pdf"
+                    download
+                    className="bg-primary text-base-100 font-semibold py-2 px-6 rounded transition cursor-pointer"
+                >
+                    Download CV
+                </a>
             </div>
         </div>
     );
