@@ -9,7 +9,7 @@ const Tools = () => {
             .then(res => res.json())
             .then(data => setSkills(data))
     }, [setSkills])
-    console.log(skills);
+    // console.log(skills);
 
     return (
         <div>

@@ -13,16 +13,15 @@
       "Node.js",
       "Express"
     ],
-    "image": "/images/delivery-tracker.png",
+    "image": "https://i.postimg.cc/FR0pTYDX/open-journal.png",
     "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
     "githubLink-server": "https://github.com/ratulislam46/openjournal-server"
-
   },
   {
     "id": 2,
     "title": "Delivery Tracker App",
-    "description": "A full-featured delivery tracking web app with parcel status, map, and admin dashboard.",
+    "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
     "technologies": [
       "React",
       "Tailwind CSS",
@@ -33,49 +32,24 @@
       "Express",
       "Stripe"
     ],
-    "image": "/images/delivery-tracker.png",
-    "liveLink": "https://your-live-site.com/delivery-tracker",
-    "githubLink": "https://github.com/arfanratul/delivery-tracker"
+    "image": "https://i.postimg.cc/m2ZxF4gg/Profast.png",
+    "liveLink": "https://email-pass-auth-12a30.web.app/",
+    "githubLink-client": "https://github.com/ratulislam46/profast-client"
   },
   {
     "id": 3,
     "title": "FitNest - Fitness Booking Platform",
-    "description": "A MERN-based platform for booking personal trainers, scheduling slots, and making payments with Stripe.",
+    "description": "FitNess is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
     "technologies": [
       "React",
+      "javaScript",
       "Node.js",
       "Express",
       "MongoDB",
       "Stripe"
     ],
-    "image": "/images/fitnest.png",
-    "liveLink": "https://your-live-site.com/fitnest",
-    "githubLink": "https://github.com/arfanratul/fitnest"
-  },
-  {
-    "id": 4,
-    "title": "Tree Marketplace",
-    "description": "A React project where users can upload, browse, and buy full-grown trees online.",
-    "technologies": [
-      "React",
-      "Tailwind",
-      "Firebase",
-      "Express"
-    ],
-    "image": "/images/tree-marketplace.png",
-    "liveLink": "https://your-live-site.com/tree-market",
-    "githubLink": "https://github.com/arfanratul/tree-market"
-  },
-  {
-    "id": 5,
-    "title": "Portfolio Website",
-    "description": "My personal portfolio built with React and Tailwind, featuring projects, skills, and CV download.",
-    "technologies": [
-      "React",
-      "Tailwind CSS"
-    ],
-    "image": "/images/portfolio.png",
-    "liveLink": "https://your-live-site.com",
-    "githubLink": "https://github.com/arfanratul/portfolio"
+    "image": "https://i.postimg.cc/VNQz3TzQ/fitness.png",
+    "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/fitness-client"
   }
 ]
