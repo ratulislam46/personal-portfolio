@@ -9,23 +9,19 @@ const About = () => {
         <div className="text-center text-base-content md:text-left">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">Passionate Developer from Bangladesh</h3>
-          <p className="mb-4">
-            I’m <span className="font-semibold">Md Ratul Howlader</span>, a dedicated and
-            self-motivated web developer with a strong passion for building
-            modern, responsive, and user-friendly websites and applications.
+          <p className="mb-4 text-xl">
+           I’m <span className="font-bold">Md Ratul Howlader</span>, a passionate Full Stack Developer with expertise in React.js, Node.js, and UI/UX design.
           </p>
-          <p className="mb-4">
-            I’ve completed a full web development course and gained hands-on
-            experience with frontend tools like <strong>HTML</strong>,{" "}
-            <strong>CSS</strong>, <strong>Tailwind CSS</strong>,{" "}
-            <strong>JavaScript</strong>, and <strong>React</strong>. I’ve also
-            worked with backend technologies such as <strong>Node.js</strong>,{" "}
-            <strong>Express.js</strong>, and <strong>MongoDB</strong>.
+          <p className="mb-4 text-xl">
+            My journey as a web developer began during my college years, when I was in the middle of my studies. During that time, I started learning slowly, focusing on the basics, and teaching myself.
+            After completing my intermediate exams, I followed a roadmap to become an expert full-stack developer. Despite facing many major challenges along the way, today I am truly delighted to have successfully learned both front-end and back-end development.
           </p>
-          <p className="mb-6">
-            I enjoy solving real-world problems by developing useful applications.
-            Every day, I challenge myself to improve by learning new tools,
-            exploring modern design, and building meaningful projects.
+          <p className="mb-4 text-xl">
+            Now, I have completed a full web development course and gained practical experience with frontend tools. I have also worked with backend technologies.Already, I am developing some projects using frontend and backend technologies.
+          </p>
+          <p className="mb-4 text-xl">
+            I enjoy solving real-world problems by building useful applications.
+            Every day, I strive to improve by reviewing new documentation, learning new tools, exploring modern design, and creating meaningful projects.
           </p>
         </div>
       </div>

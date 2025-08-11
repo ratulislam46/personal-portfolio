@@ -27,12 +27,12 @@ const About = () => {
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Md Ratul Howlader</h2>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">Full Stack Web Developer</h3>
-                    <p>
+                    <p className="text-xl">
                        I make responsive and valuable website. Alway's I will try to how can i improve myself.
                     </p>
 
                     {/* Social link  */}
-                    <div className="my-6">
+                    <div className="mt-4 mb-7">
                         <Link to='https://www.linkedin.com/in/ratulislambd/'
                             target="_blank" rel="noopener noreferrer" className="mr-4"
                         >

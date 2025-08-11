@@ -3,6 +3,7 @@ import Skills from '../Skills/Skills';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Introduction from '../Introduction/Introduction';
+import EducationQualification from '../Education/EducationQualification';
 
 const Home = () => {
     return (
@@ -18,6 +19,10 @@ const Home = () => {
             {/* skill section  */}
             <section className='border mb-6'>
                 <Skills></Skills>
+            </section>
+            {/* Education qualification section  */}
+            <section className='mb-6'>
+                <EducationQualification></EducationQualification>
             </section>
             {/* contact section  */}
             <section className='border mb-6'>

@@ -10,7 +10,7 @@ const Contact = () => {
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className="text-2xl md:text-3xl font-bold mt-2">
+                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6'>
                     Reach Out to Me
                 </h2>
             </div>
@@ -19,9 +19,9 @@ const Contact = () => {
                 {/* home */}
                 <div className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
-                        <FaPhone size={28} className="text-green-500" />
+                        <FaPhone size={28} className="text-primary" />
                     </div>
-                    <p className="mt-3">Phone</p>
+                    <p className="mt-3 font-bold">Phone</p>
                     <div className="flex items-center gap-2 mt-1">
                         <a>
                             +8801643110638
@@ -32,9 +32,9 @@ const Contact = () => {
                 {/* Email */}
                 <div className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
-                        <MdEmail size={28} className="text-green-500" />
+                        <MdEmail size={28} className="text-primary" />
                     </div>
-                    <p className="mt-3">Email</p>
+                    <p className="mt-3 font-bold">Email</p>
                     <a className="mt-1">
                         arfanratul46@gmail.com
                     </a>
@@ -43,9 +43,9 @@ const Contact = () => {
                 {/* Whatsapp */}
                 <div className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
-                        <FaWhatsapp size={28} className="text-green-500" />
+                        <FaWhatsapp size={28} className="text-primary" />
                     </div>
-                    <p className="mt-3">Whatsapp</p>
+                    <p className="mt-3 font-bold">Whatsapp</p>
                     <a className="mt-1">
                         +8801643110638
                     </a>
