@@ -4,6 +4,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
 import toast from "react-hot-toast";
+import TypeWriter from "../../Components/Typewriter/TypeWriter";
 
 const About = () => {
 
@@ -26,9 +27,12 @@ const About = () => {
                 <div className="text-center text-base-content md:text-left">
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Md Ratul Howlader</h2>
-                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">Full Stack Web Developer</h3>
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">
+                        F
+                        <TypeWriter text={'ull Stack Web Developer'}></TypeWriter>
+                    </h3>
                     <p className="text-xl">
-                       I make responsive and valuable website. Alway's I will try to how can i improve myself.
+                        I make responsive and valuable website. Alway's I will try to how can i improve myself.
                     </p>
 
                     {/* Social link  */}

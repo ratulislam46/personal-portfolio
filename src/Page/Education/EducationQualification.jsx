@@ -1,9 +1,13 @@
 import React from 'react';
+import TypeWriter from '../../Components/Typewriter/TypeWriter';
 
 const EducationQualification = () => {
     return (
         <div className='mx-2 md:mx-0'>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10'>Education Qualification</h1>
+            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10 font-serif'>
+                E
+                <TypeWriter text={'ducational Qualification'}></TypeWriter>
+            </h1>
             <div data-aos="zoom-in" className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 text-center md:justify-between'>
                 <div className='border border-gray-200 rounded-md py-8 shadow'>
                     <h1 className='font-bold text-xl'>Bachelor of Business Administration(BBA)</h1>

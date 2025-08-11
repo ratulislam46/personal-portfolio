@@ -1,6 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+import TypeWriter from "../../Components/Typewriter/TypeWriter";
 
 
 const Contact = () => {
@@ -10,8 +11,9 @@ const Contact = () => {
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6'>
-                    Reach Out to Me
+                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6 font-serif'>
+                    R
+                    <TypeWriter text={'each Out to Me'}></TypeWriter>
                 </h2>
             </div>
 
