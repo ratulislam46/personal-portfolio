@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import { NavLink } from 'react-router';
 
@@ -11,12 +11,22 @@ const Navbar = () => {
         <li><NavLink to='/about'>Experience</NavLink></li>
     </>
 
+    // this function only for download cv 
     const handleDwnldBtn = () => {
         toast.success('CV Cooming Soon')
     }
 
+    // theme changes state 
+    const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
+    useEffect(() => {
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+    }, [theme]);
+
     return (
-        <div className="navbar w-11/12 mx-auto">
+        <div className="fixed top-0 left-0 w-full z-50 bg-base-100 shadow-md">
+        <div className='navbar container mx-auto'>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -31,6 +41,16 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="text-3xl text-primary font-bold"><span>RATUL</span> <span>ISLAM</span></a>
+
+                {/* Right side toggle button */}
+                <div className="flex-none ml-4">
+                    <button
+                        className="btn btn-ghost text-xl"
+                        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+                    >
+                        {theme === "light" ? "🌙 Dark" : "☀ Light"}
+                    </button>
+                </div>
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal">
@@ -44,11 +64,12 @@ const Navbar = () => {
                     onClick={handleDwnldBtn}
                     // href="/ArFan_RaTul_CV.pdf"
                     download
-                    className="bg-primary text-base-100 font-semibold py-2 px-6 rounded transition cursor-pointer"
+                    className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
                 >
                     Download CV
                 </a>
             </div>
+        </div>
         </div>
     );
 };

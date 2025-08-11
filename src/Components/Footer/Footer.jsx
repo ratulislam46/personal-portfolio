@@ -4,8 +4,8 @@ import { Link } from "react-router";
 
 const Footer = () => {
     return (
-        <div className="flex md:block justify-center">
-            <div className='md:flex justify-between py-8 text-base-100'>
+        <div className="flex md:block justify-center container mx-auto">
+            <div className='md:flex justify-between py-8 text-base-content'>
                 <div><h2 className='text-xl'>Terms & Conditions</h2></div>
                 <div className="flex justify-center gap-3 my-4 md:my-0">
                     <Link to='https://web.facebook.com/mdratul.islam.46/'

@@ -6,13 +6,13 @@ import { Outlet } from 'react-router';
 const Layout = () => {
     return (
         <div>
-            <header>
+            <header className='border'>
                 <Navbar></Navbar>
             </header>
-            <main>
+            <main className='min-h-[calc(100vh-200px)]'>
                 <Outlet></Outlet>
             </main>
-            <footer className='w-11/12 mx-auto'>
+            <footer className='border'>
                 <Footer></Footer>
             </footer>
         </div>
