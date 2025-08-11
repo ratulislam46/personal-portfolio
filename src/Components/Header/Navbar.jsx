@@ -43,7 +43,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <a className="text-3xl text-primary font-bold">
-                        <img src={logo} alt="logo" className='w-30' />
+                        <img src={logo} alt="logo" className='w-36' />
                     </a>
 
                     {/* Right side toggle button */}

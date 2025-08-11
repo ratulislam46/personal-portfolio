@@ -1,36 +1,79 @@
 [
   {
     "id": 1,
+    "title": "Open Journal",
+    "description": "Excited to launch my new blog platform where users can browse, save their favorite posts, and enjoy a clean UI with dark mode support. Built using React, MongoDB, and Firebase Hosting. Would love to hear your thoughts!",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "javaScript",
+      "MongoDB",
+      "Firebase",
+      "Node.js",
+      "Express"
+    ],
+    "image": "/images/delivery-tracker.png",
+    "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
+    "githubLink-server": "https://github.com/ratulislam46/openjournal-server"
+
+  },
+  {
+    "id": 2,
     "title": "Delivery Tracker App",
     "description": "A full-featured delivery tracking web app with parcel status, map, and admin dashboard.",
-    "technologies": ["React", "Tailwind CSS", "React Router", "MongoDB"],
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "javaScript",
+      "MongoDB",
+      "Node.js",
+      "Express",
+      "Stripe"
+    ],
     "image": "/images/delivery-tracker.png",
     "liveLink": "https://your-live-site.com/delivery-tracker",
     "githubLink": "https://github.com/arfanratul/delivery-tracker"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "FitNest - Fitness Booking Platform",
     "description": "A MERN-based platform for booking personal trainers, scheduling slots, and making payments with Stripe.",
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe"
+    ],
     "image": "/images/fitnest.png",
     "liveLink": "https://your-live-site.com/fitnest",
     "githubLink": "https://github.com/arfanratul/fitnest"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Tree Marketplace",
     "description": "A React project where users can upload, browse, and buy full-grown trees online.",
-    "technologies": ["React", "Tailwind", "Firebase", "Express"],
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "Express"
+    ],
     "image": "/images/tree-marketplace.png",
     "liveLink": "https://your-live-site.com/tree-market",
     "githubLink": "https://github.com/arfanratul/tree-market"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Portfolio Website",
     "description": "My personal portfolio built with React and Tailwind, featuring projects, skills, and CV download.",
-    "technologies": ["React", "Tailwind CSS"],
+    "technologies": [
+      "React",
+      "Tailwind CSS"
+    ],
     "image": "/images/portfolio.png",
     "liveLink": "https://your-live-site.com",
     "githubLink": "https://github.com/arfanratul/portfolio"

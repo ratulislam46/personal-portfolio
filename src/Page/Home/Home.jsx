@@ -1,6 +1,7 @@
 import React from 'react';
 import Skills from '../Skills/Skills';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -12,6 +13,10 @@ const Home = () => {
             {/* skill section  */}
             <section className='border mb-6'>
                 <Skills></Skills>
+            </section>
+            {/* contact section  */}
+            <section className='border mb-6'>
+                <Contact></Contact>
             </section>
         </div>
     );
