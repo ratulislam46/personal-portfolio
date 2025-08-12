@@ -16,7 +16,13 @@
     "image": "https://i.postimg.cc/FR0pTYDX/open-journal.png",
     "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
-    "githubLink-server": "https://github.com/ratulislam46/openjournal-server"
+    "githubLink-server": "https://github.com/ratulislam46/openjournal-server",
+    "challenges": [
+      "Implementing a seamless dark mode toggle without layout shifts.",
+      "Ensuring fast data fetching and rendering from MongoDB for smooth browsing.",
+      "Managing Firebase authentication with persistent sessions across refresh.",
+      "Optimizing image loading for better performance on slower networks."
+    ]
   },
   {
     "id": 2,
@@ -33,7 +39,13 @@
     ],
     "image": "https://i.postimg.cc/m2ZxF4gg/Profast.png",
     "liveLink": "https://email-pass-auth-12a30.web.app/",
-    "githubLink-client": "https://github.com/ratulislam46/profast-client"
+    "githubLink-client": "https://github.com/ratulislam46/profast-client",
+    "challenges": [
+      "Synchronizing real-time delivery status updates for multiple roles (user, rider, admin).",
+      "Handling secure payments and refunds through Stripe integration.",
+      "Designing a responsive and mobile-friendly dashboard for all device types.",
+      "Implementing role-based access control without performance issues."
+    ]
   },
   {
     "id": 3,
@@ -50,6 +62,12 @@
     ],
     "image": "https://i.postimg.cc/VNQz3TzQ/fitness.png",
     "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/fitness-client"
+    "githubLink-client": "https://github.com/ratulislam46/fitness-client",
+    "challenges": [
+      "Integrating real-time slot availability updates for multiple trainers.",
+      "Building secure forum functionality with spam and abuse prevention.",
+      "Managing booking conflicts and preventing double-booking issues.",
+      "Optimizing dashboard performance with large datasets and analytics."
+    ]
   }
 ]

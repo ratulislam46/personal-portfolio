@@ -1,7 +1,8 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FcViewDetails } from "react-icons/fc";
 
-const SingleProject = ({ project }) => {
+const SingleProject = ({ project, onDetailsClick }) => {
   const {
     title,
     description,
@@ -42,8 +43,15 @@ const SingleProject = ({ project }) => {
           </div>
         </div>
 
-        {/* Links */}
+
         <div className="flex flex-wrap gap-3 mt-auto">
+          <button
+            className="btn btn-sm btn-outline btn-se flex items-center gap-2"
+            onClick={() => onDetailsClick(project)}
+          >
+            <FcViewDetails /> Details
+          </button>
+
           {liveLink && (
             <a
               href={liveLink}
@@ -64,16 +72,6 @@ const SingleProject = ({ project }) => {
               <FaGithub /> GitHub
             </a>
           )}
-          {/* {githubServer && (
-            <a
-              href={githubServer}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-sm btn-outline flex items-center gap-2"
-            >
-              <FaGithub /> Server
-            </a>
-          )} */}
         </div>
       </div>
     </div>
