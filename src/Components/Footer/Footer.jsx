@@ -4,8 +4,8 @@ import { Link } from "react-router";
 
 const Footer = () => {
     return (
-        <div className="flex md:block justify-center container mx-auto">
-            <p className="text-center py-4">© 2025 Md Ratul Howlader. All rights reserved.</p>
+        <div className="flex md:block justify-center container mx-auto shadow-2xl">
+            <p className="text-center py-4 text-gray-500 text-xs">© 2025 Md Ratul Howlader. All rights reserved.</p>
         </div>
     );
 };

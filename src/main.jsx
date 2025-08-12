@@ -12,7 +12,9 @@ Aos.init();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Toaster position="left-bottom" reverseOrder={true} />
-    <RouterProvider router={router}></RouterProvider>
+    <div className='font-roboto'>
+      <Toaster position="left-bottom" reverseOrder={true} />
+      <RouterProvider router={router}></RouterProvider>
+    </div>
   </StrictMode>,
 )

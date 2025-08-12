@@ -33,11 +33,6 @@ const Navbar = () => {
         </li>
     </>
 
-    // this function only for download cv 
-    const handleDwnldBtn = () => {
-        toast.success('CV Cooming Soon')
-    }
-
     // theme changes state 
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -85,12 +80,10 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a
-                        onClick={handleDwnldBtn}
-                        // href="/ArFan_RaTul_CV.pdf"
-                        download
+                        href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
                         className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
                     >
-                        Download CV
+                        Resume
                     </a>
                 </div>
             </div>

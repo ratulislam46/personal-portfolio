@@ -11,14 +11,14 @@ const Contact = () => {
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6 font-serif'>
+                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6  '>
                     R
                     <TypeWriter text={'each Out to Me'}></TypeWriter>
                 </h2>
             </div>
 
             <div className="flex flex-col md:flex-row items-center justify-center mt-10 gap-10">
-                {/* home */}
+                {/* Phone */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
@@ -26,7 +26,7 @@ const Contact = () => {
                     </div>
                     <p className="mt-3 font-bold">Phone</p>
                     <div className="flex items-center gap-2 mt-1">
-                        <a>
+                        <a href="tel:+8801643110638" className="text-blue-500 hover:underline">
                             +8801643110638
                         </a>
                     </div>
@@ -62,7 +62,7 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

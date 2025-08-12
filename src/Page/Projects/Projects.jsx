@@ -23,7 +23,7 @@ const Projects = () => {
 
     return (
         <div className='mx-2 md:mx-0'>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10 font-serif'>
+            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10  '>
                 <span className='text-2xl lg:text-4xl'>
                     M
                    <TypeWriter text='y Projects'></TypeWriter>

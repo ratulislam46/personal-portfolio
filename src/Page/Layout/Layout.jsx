@@ -12,7 +12,7 @@ const Layout = () => {
             <main className='min-h-[calc(100vh-100px)]'>
                 <Outlet></Outlet>
             </main>
-            <footer>
+            <footer className='border-t border-gray-200'>
                 <Footer></Footer>
             </footer>
         </div>

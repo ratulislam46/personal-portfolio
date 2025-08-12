@@ -3,14 +3,10 @@ import profileImg from "../../../public/assets/IMG-20220721-WA0001-01-01-removeb
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
-import toast from "react-hot-toast";
 import TypeWriter from "../../Components/Typewriter/TypeWriter";
 
 const About = () => {
 
-    const handleDwnldBtn = () => {
-        toast.success('CV Cooming Soon')
-    }
     return (
         <section>
             <div className="px-4 flex justify-between flex-col md:flex-row-reverse items-center py-12">
@@ -50,14 +46,14 @@ const About = () => {
                     </div>
 
                     {/* Download Cv button  */}
-                    <a
-                        onClick={handleDwnldBtn}
-                        // href="/ArFan_RaTul_CV.pdf"
-                        download
-                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
-                    >
-                        Download CV
-                    </a>
+                    <div>
+                        <a
+                            href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
+                            className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
+                        >
+                            Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
