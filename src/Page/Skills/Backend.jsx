@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import Loading from '../../Components/Loading/Loading';
 
 const Backend = () => {
     const [skills, setSkills] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const data = fetch('/public/backend.json')
+        const data = fetch('/backend.json')
             .then(res => res.json())
-            .then(data => setSkills(data))
-    }, [setSkills])
+            .then(data => {
+                setSkills(data)
+                setLoading(false)
+            })
+    }, [setSkills, setLoading])
     // console.log(skills);
+
+    if (loading) return <Loading></Loading>
 
     return (
         <div>

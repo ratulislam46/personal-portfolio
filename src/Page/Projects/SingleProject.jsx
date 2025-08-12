@@ -27,7 +27,7 @@ const SingleProject = ({ project }) => {
       <div className="flex-1 p-4 flex flex-col">
         <div>
           <h3 className="text-xl font-semibold mb-2">{title}</h3>
-          <p className="text-sm text-gray-300 mb-4">{description}</p>
+          <p className="text-sm text-gray-400 mb-4">{description}</p>
 
           {/* Technologies */}
           <div className="flex flex-wrap gap-2 mb-4">

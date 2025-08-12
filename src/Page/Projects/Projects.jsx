@@ -9,7 +9,7 @@ const Projects = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const projects = fetch('/public/projects.json')
+        const projects = fetch('/projects.json')
             .then(res => res.json())
             .then(data => {
                 setProjects(data)
