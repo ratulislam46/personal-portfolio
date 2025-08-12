@@ -14,11 +14,11 @@ const Home = () => {
                 <Introduction></Introduction>
             </section>
             {/* about me  */}
-            <section className=' mb-6'>
+            <section name="about" className=' mb-6'>
                 <About></About>
             </section>
             {/* skill section  */}
-            <section id='skills' className='mb-6'>
+            <section name="skills" className='mb-6'>
                 <Skills></Skills>
             </section>
             {/* Education qualification section  */}
@@ -26,11 +26,11 @@ const Home = () => {
                 <EducationQualification></EducationQualification>
             </section>
             {/* Projects section  */}
-            <section className='mb-6'>
+            <section name="projects" className='mb-6'>
                 <Projects></Projects>
             </section>
             {/* contact section  */}
-            <section className='mb-6'>
+            <section name="contact" className='mb-6'>
                 <Contact></Contact>
             </section>
         </div>

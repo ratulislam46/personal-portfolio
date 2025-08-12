@@ -17,9 +17,10 @@ const Contact = () => {
                 </h2>
             </div>
 
-            <div data-aos="zoom-in" className="flex flex-col md:flex-row items-center justify-center mt-10 gap-10">
+            <div className="flex flex-col md:flex-row items-center justify-center mt-10 gap-10">
                 {/* home */}
-                <div className="flex flex-col items-center">
+                <div data-aos="zoom-in-up"
+                    className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
                         <FaPhone size={28} className="text-primary" />
                     </div>
@@ -32,23 +33,31 @@ const Contact = () => {
                 </div>
 
                 {/* Email */}
-                <div className="flex flex-col items-center">
+                <div data-aos="zoom-in-up"
+                    className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
                         <MdEmail size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Email</p>
-                    <a className="mt-1">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arfanratul46@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 text-blue-500 hover:underline">
                         arfanratul46@gmail.com
                     </a>
                 </div>
 
                 {/* Whatsapp */}
-                <div className="flex flex-col items-center">
+                <div data-aos="zoom-in-up"
+                    className="flex flex-col items-center">
                     <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
                         <FaWhatsapp size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Whatsapp</p>
-                    <a className="mt-1">
+                    <a href="https://wa.me/8801643110638"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 text-blue-500 hover:underline">
                         +8801643110638
                     </a>
                 </div>

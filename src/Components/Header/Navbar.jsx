@@ -1,17 +1,36 @@
 import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
-import { NavLink } from 'react-router';
+import { Link } from 'react-scroll';
 import logo from '../../../public/portfolio-logo.png'
-import '../Header/navbar.css'
 
 const Navbar = () => {
 
     const links = <>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/about'>About</NavLink></li>
-        <li><NavLink to='/skills'>Skills</NavLink></li>
-        <li><NavLink to='/projects'>Projects</NavLink></li>
-        <li><NavLink to='/contact'>Contact</NavLink></li>
+        <li>
+            <Link to='home' smooth={true} duration={500} offset={-70} >
+                Home
+            </Link>
+        </li>
+        <li>
+            <Link to='about' smooth={true} duration={500} offset={-70} >
+                About
+            </Link>
+        </li>
+        <li>
+            <Link to='skills' smooth={true} duration={500} offset={-70} >
+                Skills
+            </Link>
+        </li>
+        <li>
+            <Link to='projects' smooth={true} duration={500} offset={-70} >
+                Projects
+            </Link>
+        </li>
+        <li>
+            <Link to='contact' smooth={true} duration={500} offset={-70} >
+                Contact
+            </Link>
+        </li>
     </>
 
     // this function only for download cv 

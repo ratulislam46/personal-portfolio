@@ -13,7 +13,7 @@ const SingleProject = ({ project }) => {
   } = project;
 
   return (
-    <div className="bg-base-100 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300 flex flex-col min-h-[480px]">
+    <div data-aos="zoom-in-up" className="bg-base-100 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300 flex flex-col min-h-[480px]">
       {/* Image */}
       <div className="w-full h-48 overflow-hidden">
         <img

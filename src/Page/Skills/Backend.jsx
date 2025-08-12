@@ -21,7 +21,7 @@ const Backend = () => {
                 </div>
 
                 {/* Grid Cards */}
-                <div data-aos="zoom-in" className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3">
+                <div data-aos="zoom-in-up" className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-3">
                     {skills.map((skill, index) => (
                         <div
                             key={skill.id}
