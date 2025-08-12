@@ -21,7 +21,7 @@ const Contact = () => {
                 {/* Phone */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-2xl">
                         <FaPhone size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Phone</p>
@@ -35,7 +35,7 @@ const Contact = () => {
                 {/* Email */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-2xl">
                         <MdEmail size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Email</p>
@@ -50,7 +50,7 @@ const Contact = () => {
                 {/* Whatsapp */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 border border-gray-200">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-2xl">
                         <FaWhatsapp size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Whatsapp</p>

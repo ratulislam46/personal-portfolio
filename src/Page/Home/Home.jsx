@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className='container mx-auto mt-28 md:mt-28 lg:mt-30 '>
             {/* Introduction section  */}
-            <section className='mb-6'>
+            <section name="home" className='mb-6'>
                 <Introduction></Introduction>
             </section>
             {/* about me  */}
@@ -22,7 +22,7 @@ const Home = () => {
                 <Skills></Skills>
             </section>
             {/* Education qualification section  */}
-            <section className='mb-6'>
+            <section name="education" className='mb-6'>
                 <EducationQualification></EducationQualification>
             </section>
             {/* Projects section  */}

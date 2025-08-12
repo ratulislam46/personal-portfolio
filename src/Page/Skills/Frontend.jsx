@@ -22,7 +22,7 @@ const Frontend = () => {
             <section className="py-10 px-4 md:px-8">
                 {/* Section Title */}
                 <div className="text-center text-2xl font-bold text-base-content mb-10">
-                    <p className="mt-2">Explore My Frontend Skillset</p>
+                    <p className="mt-2">My Frontend Skills</p>
                     <div className="w-20 h-1 bg-primary mx-auto mt-3 rounded-full" />
                 </div>
 

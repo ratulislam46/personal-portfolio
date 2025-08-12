@@ -1,33 +1,44 @@
 import React, { useEffect, useState } from 'react';
-import toast from 'react-hot-toast';
 import { Link } from 'react-scroll';
 import logo from '../../../public/portfolio-logo.png'
+import '../Header/navbar.css'
 
 const Navbar = () => {
 
     const links = <>
         <li>
-            <Link to='home' smooth={true} duration={500} offset={-70} >
+            <Link to='home' smooth={true} duration={500} offset={-200} spy={true}
+                activeClass="active-link" >
                 Home
             </Link>
         </li>
         <li>
-            <Link to='about' smooth={true} duration={500} offset={-70} >
+            <Link to='about' smooth={true} duration={500} offset={-200} spy={true}
+                activeClass="active-link">
                 About
             </Link>
         </li>
         <li>
-            <Link to='skills' smooth={true} duration={500} offset={-70} >
+            <Link to='skills' smooth={true} duration={500} offset={-200} spy={true}
+                activeClass="active-link">
                 Skills
             </Link>
         </li>
         <li>
-            <Link to='projects' smooth={true} duration={500} offset={-70} >
+            <Link to='education' smooth={true} duration={500} offset={-200} spy={true}
+                activeClass="active-link">
+                Education
+            </Link>
+        </li>
+        <li>
+            <Link to='projects' smooth={true} duration={500} offset={-200} spy={true}
+                activeClass="active-link">
                 Projects
             </Link>
         </li>
         <li>
-            <Link to='contact' smooth={true} duration={500} offset={-70} >
+            <Link to='contact' smooth={true} duration={500} offset={-70} spy={true}
+                activeClass="active-link">
                 Contact
             </Link>
         </li>
@@ -42,7 +53,7 @@ const Navbar = () => {
     }, [theme]);
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50 bg-base-100 shadow-md">
+        <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-3xl shadow-md">
             <div className='navbar container mx-auto'>
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -72,7 +83,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center hidden md:flex">
-                    <ul className="menu menu-horizontal">
+                    <ul className="menu menu-horizontal border border-gray-500 rounded-full">
                         {
                             links
                         }
