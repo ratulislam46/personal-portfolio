@@ -4,13 +4,13 @@ import TypeWriter from '../../Components/Typewriter/TypeWriter';
 const EducationQualification = () => {
     return (
         <div className='mx-2 md:mx-0'>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-12 mb-6 py-10  '>
+            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold  mb-8'>
                 E
                 <TypeWriter text={'ducational Qualification'}></TypeWriter>
             </h1>
-            <div data-aos="zoom-in-up" className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 text-center md:justify-between'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 text-center md:justify-between'>
 
-                <div className='rounded-lg py-8 shadow-xl'>
+                <div data-aos="zoom-in-up" className='rounded-lg py-8 shadow-xl'>
                     <h1 className='font-bold text-xl'>Bachelor of Business Administration(BBA)</h1>
                     <p className='font-semibold text-xl'>National University, Bangladesh</p>
                     <p>(2022-23) 2<sup>nd</sup>Year -  Marketing</p>

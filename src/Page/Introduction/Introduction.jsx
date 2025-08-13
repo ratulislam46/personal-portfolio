@@ -3,7 +3,7 @@ import profileImg from "../../../public/assets/IMG-20220721-WA0001-01-01-removeb
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
-import TypeWriter from "../../Components/Typewriter/TypeWriter";
+import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
 
@@ -22,10 +22,17 @@ const About = () => {
                 {/* Text Content */}
                 <div className="text-center text-base-content md:text-left">
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Md Ratul Howlader</h2>
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-primary">Md Ratul Howlader</h2>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">
-                        F
-                        <TypeWriter text={'ull Stack Web Developer'}></TypeWriter>
+                       <Typewriter
+                            words={["Full Stack Web Developer"]}
+                            loop={false}
+                            cursor
+                            cursorStyle="_"
+                            typeSpeed={150}
+                            deleteSpeed={100}
+                            delaySpeed={1000}
+                        ></Typewriter>
                     </h3>
                     <p className="text-xl">
                         I make responsive and valuable website. Alway's I will try to how can i improve myself.

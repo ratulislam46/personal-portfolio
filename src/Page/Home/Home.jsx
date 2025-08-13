@@ -10,27 +10,27 @@ const Home = () => {
     return (
         <div className='container mx-auto mt-28 md:mt-28 lg:mt-30 '>
             {/* Introduction section  */}
-            <section name="home" className='mb-6'>
+            <section name="home" className='mb-8 py-8'>
                 <Introduction></Introduction>
             </section>
             {/* about me  */}
-            <section name="about" className=' mb-6'>
+            <section name="about" className='mb-8 py-8'>
                 <About></About>
             </section>
             {/* skill section  */}
-            <section name="skills" className='mb-6'>
+            <section name="skills" className='mb-8 py-8'>
                 <Skills></Skills>
             </section>
             {/* Education qualification section  */}
-            <section name="education" className='mb-6'>
+            <section name="education" className='mb-8 py-8'>
                 <EducationQualification></EducationQualification>
             </section>
             {/* Projects section  */}
-            <section name="projects" className='mb-6'>
+            <section name="projects" className='mb-8 py-8'>
                 <Projects></Projects>
             </section>
             {/* contact section  */}
-            <section name="contact" className='mb-6'>
+            <section name="contact" className='mb-8 py-8'>
                 <Contact></Contact>
             </section>
         </div>

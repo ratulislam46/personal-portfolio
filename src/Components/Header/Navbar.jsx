@@ -53,7 +53,7 @@ const Navbar = () => {
     }, [theme]);
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-3xl shadow-md">
+        <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-3xl shadow-md rounded-full border-b-2 border-primary">
             <div className='navbar container mx-auto'>
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -72,27 +72,28 @@ const Navbar = () => {
                         <img src={logo} alt="logo" className='w-36' />
                     </a>
 
-                    {/* Right side toggle button */}
-                    <div className="flex-none ml-4">
-                        <button
-                            className="btn btn-ghost text-xl"
-                            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-                        >
-                            {theme === "light" ? "🌙 Dark" : "☀ Light"}
-                        </button>
-                    </div>
+
                 </div>
                 <div className="navbar-center hidden md:flex">
-                    <ul className="menu menu-horizontal border border-gray-500 rounded-full">
+                    <ul className="menu menu-horizontal border border-[#2e2e86] rounded-full">
                         {
                             links
                         }
                     </ul>
                 </div>
                 <div className="navbar-end">
+                    {/* Right side toggle button */}
+                    <div className="flex-none mr-1 md:mr-2 ">
+                        <button
+                            className="btn btn-ghost text-xl focus:outline-none"
+                            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+                        >
+                            {theme === "light" ? "⚫" : "☀"}
+                        </button>
+                    </div>
                     <a
                         href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
-                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
+                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer"
                     >
                         Resume
                     </a>

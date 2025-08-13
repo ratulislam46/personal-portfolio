@@ -18,10 +18,9 @@
     "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
     "githubLink-server": "https://github.com/ratulislam46/openjournal-server",
     "challenges": [
-      "Implementing a seamless dark mode toggle without layout shifts.",
-      "Ensuring fast data fetching and rendering from MongoDB for smooth browsing.",
-      "Managing Firebase authentication with persistent sessions across refresh.",
-      "Optimizing image loading for better performance on slower networks."
+      "Developed blog management features including adding blogs, writing reviews, andwishlist functionality.",
+      "Secure authentication with JWT for different user roles",
+      "Implemented dark mode/light mode toggle for improved user experience."
     ]
   },
   {
@@ -41,10 +40,8 @@
     "liveLink": "https://email-pass-auth-12a30.web.app/",
     "githubLink-client": "https://github.com/ratulislam46/profast-client",
     "challenges": [
-      "Synchronizing real-time delivery status updates for multiple roles (user, rider, admin).",
-      "Handling secure payments and refunds through Stripe integration.",
-      "Designing a responsive and mobile-friendly dashboard for all device types.",
-      "Implementing role-based access control without performance issues."
+      "Implemented role-based access and task assignments for Admin, Rider, and User.",
+      "Enabled real-time parcel tracking and status updates."
     ]
   },
   {
@@ -64,10 +61,8 @@
     "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/fitness-client",
     "challenges": [
-      "Integrating real-time slot availability updates for multiple trainers.",
-      "Building secure forum functionality with spam and abuse prevention.",
-      "Managing booking conflicts and preventing double-booking issues.",
-      "Optimizing dashboard performance with large datasets and analytics."
+      "Developed a role-based access system forAdmin, Trainer, and Member to manage permissions securely",
+      "Implemented trainer booking, slot availability and Stripe payment integration for seamless user experience."
     ]
   }
 ]

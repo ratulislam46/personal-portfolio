@@ -17,7 +17,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
         >
             <div
                 className="bg-white p-6 rounded shadow-lg max-w-lg w-full"
-                onClick={(e) => e.stopPropagation()} style={{ maxHeight: '80vh', overflow: 'auto' }}
+                onClick={(e) => e.stopPropagation()} style={{ maxHeight: '95vh', overflow: 'auto' }}
             >
                 <h2 className="text-2xl font-bold mb-4 text-gray-800">{project.title}</h2>
                 <img

@@ -1,0 +1,47 @@
+.box {
+    margin: auto;
+    margin-bottom: 40px;
+    background: rgb(64, 68, 99);
+    height: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+@property --deg {
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 0deg;
+}
+
+.box::before,
+.box::after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(
+        from var(--deg) at center,
+            #00c3ff,
+            #4d0199,
+            #6300c6,
+            #009dcd
+            );
+    border-radius: inherit;
+    z-index: -2;
+    padding: 2px;
+    animation: autoRotate 2s linear infinite;
+}
+
+.box::after {
+    filter: blur(10px);
+}
+
+@keyframes autoRotate{
+    to{
+        --deg :300deg
+    }
+}

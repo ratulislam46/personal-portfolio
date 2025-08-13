@@ -6,12 +6,12 @@ import TypeWriter from "../../Components/Typewriter/TypeWriter";
 
 const Contact = () => {
     return (
-        <div className="bg-base-100 text-base-content py-12">
+        <div className="bg-base-100 text-base-content">
             <div className="text-center">
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2 mb-6  '>
+                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2  mb-8'>
                     R
                     <TypeWriter text={'each Out to Me'}></TypeWriter>
                 </h2>
