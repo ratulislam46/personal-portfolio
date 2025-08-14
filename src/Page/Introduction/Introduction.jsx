@@ -35,7 +35,7 @@ const About = () => {
                         ></Typewriter>
                     </h3>
                     <p className="text-xl">
-                        I make responsive and valuable website. Alway's I will try to how can i improve myself.
+                        I make responsive and valuable website. I'm a good team member who enjoys working and collaborating with others.
                     </p>
 
                     {/* Social link  */}
