@@ -83,9 +83,9 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     {/* Right side toggle button */}
-                    <div className="flex-none mr-1 md:mr-2 ">
+                    <div className="flex-none rounded-full">
                         <button
-                            className="btn btn-ghost text-xl focus:outline-none"
+                            className="text-xl px-2 py-1 mr-3 rounded-full"
                             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                         >
                             {theme === "light" ? "⚫" : "☀"}
@@ -93,7 +93,7 @@ const Navbar = () => {
                     </div>
                     <a
                         href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
-                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer"
+                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer hidden md:block"
                     >
                         Resume
                     </a>
