@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "title": "Delivery Tracker App",
+    "title": "Profast - Delivery Tracker App",
     "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
     "technologies": [
       "React",
@@ -46,8 +46,8 @@
   },
   {
     "id": 3,
-    "title": "FitNest - Fitness Booking Platform",
-    "description": "FitNess is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
+    "title": "Fitnest - Fitness Booking Platform",
+    "description": "Fitness is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
     "technologies": [
       "javaScript",
       "React",
@@ -57,7 +57,7 @@
       "MongoDB",
       "Stripe"
     ],
-    "image": "https://i.postimg.cc/VNQz3TzQ/fitness.png",
+    "image": "https://i.postimg.cc/t4XMpTDh/fitness-home.png",
     "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/fitness-client",
     "challenges": [

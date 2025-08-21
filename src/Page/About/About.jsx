@@ -9,7 +9,7 @@ const About = () => {
         <div className="text-center text-base-content md:text-left">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">Passionate Developer from Bangladesh</h3>
-          <p className="mb-4 text-xl text-gray-400">
+          <p data-aos="zoom-in-up" className="mb-4 text-xl text-gray-400">
            I’m <span className="font-bold text-base-content">Md Ratul Howlader</span>, a passionate Full Stack Developer with expertise in React.js, Node.js.
           </p>
           <p data-aos="zoom-in-up" className="mb-4 text-xl text-gray-400">

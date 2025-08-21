@@ -92,8 +92,9 @@ const Navbar = () => {
                         </button>
                     </div>
                     <a
-                        href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
+                        href="/resume.pdf"
                         className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer hidden md:block"
+                        download="Ratul_Resume.pdf"
                     >
                         Resume
                     </a>

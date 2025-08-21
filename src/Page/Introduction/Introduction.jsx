@@ -24,7 +24,7 @@ const About = () => {
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-primary">Md Ratul Howlader</h2>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">
-                       <Typewriter
+                        <Typewriter
                             words={["Full Stack Web Developer"]}
                             loop={false}
                             cursor
@@ -35,7 +35,7 @@ const About = () => {
                         ></Typewriter>
                     </h3>
                     <p className="text-xl">
-                        I make responsive and valuable website. 
+                        I make responsive and valuable website.
                     </p>
 
                     {/* Social link  */}
@@ -55,8 +55,9 @@ const About = () => {
                     {/* Download Cv button  */}
                     <div>
                         <a
-                            href="https://drive.google.com/uc?export=download&id=1vES2TrjA2_oWCRNEhJTAPA3YCb2dHkon"
+                            href="/resume.pdf"
                             className="bg-primary text-base-content font-semibold py-2 px-6 rounded transition cursor-pointer"
+                            download="Ratul_Resume.pdf"
                         >
                             Resume
                         </a>
