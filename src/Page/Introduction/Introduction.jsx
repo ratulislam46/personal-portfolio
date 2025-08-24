@@ -2,9 +2,19 @@ import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
-import { Typewriter } from "react-simple-typewriter";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const About = () => {
+
+    const [text] = useTypewriter({
+        words: [
+            "Frontend Developer",
+            "Full Stack Developer",
+            "MERN Stack Developer"
+        ],
+        loop: 0,
+        delaySpeed: 2000,
+    })
 
     return (
         <section>
@@ -12,7 +22,7 @@ const About = () => {
                 {/* Profile Image */}
                 <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden mb-8 md:mb-0 flex-shrink-0 shadow-lg border-4 border-primary">
                     <img
-                        src='https://i.postimg.cc/DfRt1n6G/IMG-20230112-WA0006-01.jpg'
+                        src='https://i.postimg.cc/g2sMLpBk/IMG-8213.jpg'
                         alt="ArFan RaTul"
                         className="w-full h-full object-cover"
                     />
@@ -23,15 +33,8 @@ const About = () => {
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-primary">Md Ratul Howlader</h2>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">
-                        <Typewriter
-                            words={["Full Stack Web Developer"]}
-                            loop={false}
-                            cursor
-                            cursorStyle="_"
-                            typeSpeed={150}
-                            deleteSpeed={100}
-                            delaySpeed={1000}
-                        ></Typewriter>
+                        <span>{text}</span>
+                        <span> <Cursor /> </span>
                     </h3>
                     <p className="text-xl">
                         I make responsive and valuable website.
