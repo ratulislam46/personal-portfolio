@@ -1,26 +1,25 @@
 [
   {
     "id": 1,
-    "title": "Open Journal",
-    "description": "Excited to launch my new blog platform where users can browse, save their favorite posts, and enjoy a clean UI with dark mode support. Built using React, MongoDB, and Firebase Hosting. Would love to hear your thoughts!",
+    "title": "Fitness - Fitness Booking Platform",
+    "description": "Fitness is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
     "technologies": [
-      "React",
+      "HTML",
       "Tailwind CSS",
       "javaScript",
-      "Firebase",
-      "MongoDB",
+      "React",
       "Firebase",
       "Node.js",
-      "Express"
+      "Express",
+      "MongoDB",
+      "Stripe"
     ],
-    "image": "https://i.postimg.cc/FR0pTYDX/open-journal.png",
-    "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
-    "githubLink-server": "https://github.com/ratulislam46/openjournal-server",
+    "image": "https://i.postimg.cc/t4XMpTDh/fitness-home.png",
+    "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/fitness-client",
     "challenges": [
-      "Developed blog management features including adding blogs, writing reviews, andwishlist functionality.",
-      "Secure authentication with JWT for different user roles",
-      "Implemented dark mode/light mode toggle for improved user experience."
+      "Developed a role-based access system forAdmin, Trainer, and Member to manage permissions securely",
+      "Implemented trainer booking, slot availability and Stripe payment integration for seamless user experience."
     ]
   },
   {
@@ -28,6 +27,8 @@
     "title": "Profast - Delivery Tracker App",
     "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
     "technologies": [
+      "HTML",
+      "Tailwind CSS",
       "React",
       "Firebase",
       "javaScript",
@@ -46,23 +47,76 @@
   },
   {
     "id": 3,
-    "title": "Fitnest - Fitness Booking Platform",
-    "description": "Fitness is a modern fitness and training platform that allows users to explore fitness classes, book training slots, communicate via forums, and pay securely. Trainers can manage their profiles, add available slots, and track bookings. Admins have full control over the system with analytics and management tools",
+    "title": "Open Journal",
+    "description": "Excited to launch my new blog platform where users can browse, save their favorite posts, and enjoy a clean UI with dark mode support. Built using React, MongoDB, and Firebase Hosting. Would love to hear your thoughts!",
     "technologies": [
-      "javaScript",
+      "HTML",
+      "Tailwind CSS",
       "React",
+      "javaScript",
+      "Firebase",
+      "MongoDB",
       "Firebase",
       "Node.js",
-      "Express",
-      "MongoDB",
-      "Stripe"
+      "Express"
     ],
-    "image": "https://i.postimg.cc/t4XMpTDh/fitness-home.png",
-    "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
-    "githubLink-client": "https://github.com/ratulislam46/fitness-client",
+    "image": "https://i.postimg.cc/FR0pTYDX/open-journal.png",
+    "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
+    "githubLink-server": "https://github.com/ratulislam46/openjournal-server",
     "challenges": [
-      "Developed a role-based access system forAdmin, Trainer, and Member to manage permissions securely",
-      "Implemented trainer booking, slot availability and Stripe payment integration for seamless user experience."
+      "Developed blog management features including adding blogs, writing reviews, andwishlist functionality.",
+      "Secure authentication with JWT for different user roles",
+      "Implemented dark mode/light mode toggle for improved user experience."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lawyer Appoinment",
+    "description": "A web application where users can easily book appointments with lawyers online. This project is built using React, Tailwind CSS, and other modern tools to ensure a smooth and responsive user experience.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "javaScript",
+      "EmailJS",
+      "Mamba Ui",
+      "DaisyUI"
+    ],
+    "image": "https://i.postimg.cc/gkw4wRpt/Screenshot-2025-08-24-115843.png",
+    "liveLink": "https://resilient-nasturtium-d2ddd2.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/lawyer-appoinment",
+    "githubLink-server": "#",
+    "challenges": [
+      "DPrevented multiple bookings for the same lawyer, with all booking data stored locally.",
+      "Implemented a chart displaying each lawyer’s earnings based on their bookings."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Task Nest",
+    "description": "TaskNest is a full-stack task management web application that allows users to register, log in, and manage their tasks with an interactive and responsive UI. Built with React, Firebase, TailwindCSS, and more, it demonstrates both frontend development and integration with backend services.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "javaScript",
+      "Typewriter",
+      "EmailJS",
+      "MongoDB",
+      "Firebase",
+      "Node.js",
+      "Express"
+    ],
+    "image": "https://i.postimg.cc/d19Ybp3X/Task-Nest.png",
+    "liveLink": "https://chipper-banoffee-6641c3.netlify.app/",
+    "githubLink-client": "https://github.com/ratulislam46/task-nest",
+    "githubLink-server": "https://github.com/ratulislam46/task-nest-server",
+    "challenges": [
+      "Built a task management system with real-time updates using Firebase Firestore, allowing users to create, edit, and delete tasks instantly.",
+      "Designed a fully responsive and visually appealing interface using TailwindCSS for optimal user experience across devices.",
+      "Designed a fully responsive and visually appealing interface using TailwindCSS for optimal user experience across devices.",
+      ""
     ]
   }
 ]

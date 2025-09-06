@@ -11,7 +11,7 @@ const Contact = () => {
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold mt-2  mb-8'>
+                <h2 className='text-center text-base-content text-2xl lg:text-4xl font-bold mt-2  mb-8'>
                     R
                     <TypeWriter text={'each Out to Me'}></TypeWriter>
                 </h2>

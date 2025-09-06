@@ -7,7 +7,7 @@ import TypeWriter from '../../Components/Typewriter/TypeWriter';
 const Skills = () => {
     return (
         <div>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold'>
+            <h1 className='text-center text-2xl lg:text-4xl text-base-content font-bold'>
                 M
                 <TypeWriter text={'y Technical Skills & Expertise'}></TypeWriter>
             </h1>

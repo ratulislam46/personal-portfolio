@@ -32,7 +32,7 @@ const Frontend = () => {
                         <div
                             key={skill.id}
                             className="shadow-lg hover:shadow-xl rounded-2xl py-6 px-2 flex flex-col items-center text-center transition duration-300 bg-base-100 "
-                            whileHover={{ scale: 1.05 }}
+                            whilehover={{ scale: 1.05 }}
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.05 }}

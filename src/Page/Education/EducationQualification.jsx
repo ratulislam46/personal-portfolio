@@ -4,7 +4,7 @@ import TypeWriter from '../../Components/Typewriter/TypeWriter';
 const EducationQualification = () => {
     return (
         <div className='mx-2 md:mx-0'>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold  mb-8'>
+            <h1 className='text-center text-2xl lg:text-4xl text-base-content mb-8 font-bold'>
                 E
                 <TypeWriter text={'ducational Qualification'}></TypeWriter>
             </h1>
