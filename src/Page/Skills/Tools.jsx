@@ -42,7 +42,7 @@ const Tools = () => {
                                 alt={skill.title}
                                 className="w-16 h-16 object-contain mb-4"
                             />
-                            <h3 className="text-xl text-base-content font-semibold">{skill.title}</h3>
+                            <h3 className="text-base-content font-semibold">{skill.title}</h3>
                             {/* <p className="text-sm mt-2 px-2">{skill.description}</p> */}
                         </div>
                     ))}
