@@ -26,7 +26,7 @@ const Projects = () => {
         <div className='mx-2 md:mx-0'>
             <h1
                 data-aos="zoom-in-up"
-                className='text-center text-primary text-2xl md:text-4xl lg:text-5xl font-bold mb-8'>
+                className='text-center text-green-400 text-2xl md:text-4xl lg:text-5xl font-bold mb-8'>
                 <span className='text-2xl lg:text-4xl'>
                     Featured Projects
                     {/* <TypeWriter text='y Projects'></TypeWriter> */}

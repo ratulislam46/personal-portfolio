@@ -31,13 +31,13 @@ const About = () => {
                 {/* Text Content */}
                 <div className="text-center text-base-content md:text-left">
                     <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">Hello,  I'm</h2>
-                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-primary">Md Ratul Howlader</h2>
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-green-400">Md Ratul Howlader</h2>
                     <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-base-content">
                         <span>{text}</span>
                         <span> <Cursor /> </span>
                     </h3>
                     <p className="text-xl">
-                        I make responsive and valuable website.
+                        I build responsive and scalable web applications using clean code and modern technologies..
                     </p>
 
                     {/* Social link  */}

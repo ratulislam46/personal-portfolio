@@ -10,10 +10,7 @@ const Contact = () => {
             <div
                 data-aos="zoom-in-up"
                 className="text-center">
-                <h4 className=" font-semibold uppercase tracking-widest">
-                    Contact
-                </h4>
-                <h2 className='text-center text-primary text-2xl lg:text-4xl font-bold mt-2  mb-8'>
+                <h2 className='text-center text-green-400 text-2xl lg:text-4xl font-bold mt-2  mb-8'>
                     Reach Out To Me
                     {/* <TypeWriter text={'each Out to Me'}></TypeWriter> */}
                 </h2>

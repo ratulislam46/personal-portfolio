@@ -6,7 +6,7 @@ const EducationQualification = () => {
         <div className='mx-2 md:mx-0'>
             <h1
                 data-aos="zoom-in-up"
-                className='text-center text-2xl lg:text-4xl text-primary mb-8 font-bold font-roboto'>
+                className='text-center text-2xl lg:text-4xl text-green-400 mb-8 font-bold font-roboto'>
                 Educational Qualification
                 {/* <TypeWriter text={'ducational Qualification'}></TypeWriter> */}
             </h1>

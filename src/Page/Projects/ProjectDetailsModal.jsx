@@ -32,7 +32,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                         {project.technologies?.map((tech, i) => (
                             <span
                                 key={i}
-                                className="bg-primary/40 text-base-content px-2 py-1 rounded text-xs"
+                                className="bg-primary/40 text-gray-800 px-2 py-1 rounded text-xs"
                             >
                                 {tech}
                             </span>
