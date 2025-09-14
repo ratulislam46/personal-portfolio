@@ -17,6 +17,7 @@ This portfolio showcases my skills, education, projects, and contact information
 - Contact options with clickable Email, Phone, and WhatsApp links  
 - Dark mode support using DaisyUI  
 - Scroll animations using AOS library  
+- Anyone can contact with what'sapp, gmail and send me an email to hire
 
 ## Technologies Used
 - React  
@@ -27,3 +28,4 @@ This portfolio showcases my skills, education, projects, and contact information
 - React Hot Toast  
 - AOS (Animate On Scroll)  
 - React Icons  
+- EmailJS

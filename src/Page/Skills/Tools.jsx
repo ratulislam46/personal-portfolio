@@ -19,7 +19,7 @@ const Tools = () => {
 
     return (
         <div>
-            <section className="py-10 px-4 md:px-8">
+            <section className="px-4 md:px-8">
                 {/* Section Title */}
                 <div
                     data-aos="zoom-in-up"

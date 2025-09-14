@@ -9,7 +9,7 @@ const Skills = () => {
         <div>
             <h1
                 data-aos="zoom-in-up"
-                className='text-center text-green-400 text-2xl lg:text-4xl font-bold'>
+                className='text-center text-green-400 text-2xl lg:text-4xl font-bold mb-12'>
                 My Technical Skills
                 {/* <TypeWriter text={'y Technical Skills & Expertise'}></TypeWriter> */}
             </h1>

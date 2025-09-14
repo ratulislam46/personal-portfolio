@@ -7,7 +7,7 @@ const About = () => {
       <div className="px-4 flex flex-col justify-center md:flex-row-reverse items-center ">
         {/* Text Content */}
         <div className="text-center text-base-content md:text-left">
-          <h2 className="text-green-400 text-3xl md:text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
+          <h2 className="text-green-400 text-3xl md:text-3xl lg:text-4xl font-bold mb-12">About Me</h2>
           <p className="text-2xl md:text-3xl font-bold mb-4 text-base-content">Passionate Developer from Bangladesh  with expertise in React.js and Node.js</p>
 
           <p className="mb-4 text-xl text-gray-400">
