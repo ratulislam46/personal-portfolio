@@ -14,7 +14,7 @@ const SingleProject = ({ project, onDetailsClick }) => {
   } = project;
 
   return (
-    <div data-aos="zoom-in-up" className="bg-base-100 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300 flex flex-col min-h-[480px]">
+    <div data-aos="zoom-in-up" className="bg-base-100 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300 flex flex-col min-h-[480px] border border-base-content/5">
       {/* Image */}
       <div className="w-full h-48 overflow-hidden">
         <img
@@ -35,7 +35,7 @@ const SingleProject = ({ project, onDetailsClick }) => {
             {technologies?.map((tech, index) => (
               <span
                 key={index}
-                className="bg-primary/40 text-base-content px-2 py-1 rounded text-xs"
+                className="bg-primary/40 text-base-content px-2 py-1 rounded text-xs bo"
               >
                 {tech}
               </span>

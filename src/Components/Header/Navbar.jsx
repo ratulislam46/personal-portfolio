@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../../../public/portfolio-logo.png'
 import '../Header/navbar.css'
+import { IoMoon, IoMoonOutline } from "react-icons/io5";
+
+
 
 const Navbar = () => {
 
@@ -88,16 +91,16 @@ const Navbar = () => {
                             className="text-xl px-2 py-1 mr-3 rounded-full"
                             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                         >
-                            {theme === "light" ? "⚫" : "☀"}
+                            {theme === "light" ? <IoMoon size={28} /> : <IoMoonOutline size={28} />}
                         </button>
                     </div>
-                    <a
+                    {/* <a
                         href="/resume.pdf"
                         className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer hidden md:block"
                         download="Ratul_Resume.pdf"
                     >
                         Resume
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

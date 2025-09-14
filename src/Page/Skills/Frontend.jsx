@@ -21,9 +21,11 @@ const Frontend = () => {
         <div>
             <section className="py-10 px-4 md:px-8">
                 {/* Section Title */}
-                <div className="text-center text-2xl font-bold text-base-content mb-10">
-                    <p className="mt-2">My Frontend Skills</p>
-                    <div className="w-20 h-1 bg-primary mx-auto mt-3 rounded-full" />
+                <div
+                    data-aos="zoom-in-up"
+                    className="text-center text-2xl font-bold text-base-content mb-10">
+                    <p className="mt-2">Frontend</p>
+                    <div className="w-14 h-1 bg-primary mx-auto mt-3 rounded-full" />
                 </div>
 
                 {/* Grid Cards */}
@@ -31,7 +33,7 @@ const Frontend = () => {
                     {skills.map((skill, index) => (
                         <div
                             key={skill.id}
-                            className="shadow-lg hover:shadow-xl rounded-2xl py-6 px-2 flex flex-col items-center text-center transition duration-300 bg-base-100 "
+                            className="shadow-lg hover:shadow-xl rounded-2xl py-6 px-2 flex flex-col items-center text-center transition duration-300 bg-base-100 border border-base-content/5"
                             whilehover={{ scale: 1.05 }}
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}

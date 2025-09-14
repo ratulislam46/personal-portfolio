@@ -7,13 +7,15 @@ import TypeWriter from "../../Components/Typewriter/TypeWriter";
 const Contact = () => {
     return (
         <div className="bg-base-100 text-base-content">
-            <div className="text-center">
+            <div
+                data-aos="zoom-in-up"
+                className="text-center">
                 <h4 className=" font-semibold uppercase tracking-widest">
                     Contact
                 </h4>
-                <h2 className='text-center text-base-content text-2xl lg:text-4xl font-bold mt-2  mb-8'>
-                    R
-                    <TypeWriter text={'each Out to Me'}></TypeWriter>
+                <h2 className='text-center text-primary text-2xl lg:text-4xl font-bold mt-2  mb-8'>
+                    Reach Out To Me
+                    {/* <TypeWriter text={'each Out to Me'}></TypeWriter> */}
                 </h2>
             </div>
 
@@ -21,7 +23,7 @@ const Contact = () => {
                 {/* Phone */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 shadow-lg">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-lg border border-base-content/5">
                         <FaPhone size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Phone</p>
@@ -35,7 +37,7 @@ const Contact = () => {
                 {/* Email */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 shadow-lg">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-lg border border-base-content/5">
                         <MdEmail size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Email</p>
@@ -50,7 +52,7 @@ const Contact = () => {
                 {/* Whatsapp */}
                 <div data-aos="zoom-in-up"
                     className="flex flex-col items-center">
-                    <div className="bg-base-100 rounded-lg p-8 shadow-lg">
+                    <div className="bg-base-100 rounded-lg p-8 shadow-lg border border-base-content/5">
                         <FaWhatsapp size={28} className="text-primary" />
                     </div>
                     <p className="mt-3 font-bold">Whatsapp</p>

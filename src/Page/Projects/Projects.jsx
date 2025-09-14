@@ -24,10 +24,12 @@ const Projects = () => {
 
     return (
         <div className='mx-2 md:mx-0'>
-            <h1 className='text-center text-2xl md:text-4xl lg:text-5xl text-base-content font-bold  mb-8'>
+            <h1
+                data-aos="zoom-in-up"
+                className='text-center text-primary text-2xl md:text-4xl lg:text-5xl font-bold mb-8'>
                 <span className='text-2xl lg:text-4xl'>
-                    M
-                    <TypeWriter text='y Projects'></TypeWriter>
+                    Featured Projects
+                    {/* <TypeWriter text='y Projects'></TypeWriter> */}
                 </span>
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
