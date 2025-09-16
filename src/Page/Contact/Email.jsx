@@ -22,7 +22,7 @@ const Email = () => {
                     console.log('FAILED...', error.text);
                 },
             );
-            e.target.reset()
+        e.target.reset()
     }
 
     return (
@@ -33,7 +33,7 @@ const Email = () => {
                 className="space-y-6">
                 <div>
                     <label className="text-sm">Full name</label>
-                    <input name="user_name" type="text" placeholder="Your Name" className="w-full p-3 rounded border border-base-content/20" />
+                    <input name="user_name" type="text" placeholder="Your Name" className="w-full p-3 rounded border border-base-content/20" required />
                 </div>
                 <div>
                     <label className="text-sm">Email</label>
@@ -42,8 +42,9 @@ const Email = () => {
                 </div>
                 <div>
                     <label className="text-sm">Message</label>
-                    <textarea name="message" rows="3" className="w-full p-3 rounded border border-base-content/20"
-                        placeholder='Write your opinion . . .'></textarea>
+                    <textarea name="message" rows="3"
+                        className="w-full p-3 rounded border border-base-content/20"
+                        placeholder='Write your opinion . . .' required></textarea>
                 </div>
                 <button type="submit" className="w-full py-3 text-sm font-bold tracking-wide uppercase rounded bg-primary text-base-content">Send Message</button>
             </form>
