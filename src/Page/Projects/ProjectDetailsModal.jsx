@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { ImCancelCircle } from "react-icons/im";
 
 const ProjectDetailsModal = ({ project, onClose }) => {
     if (!project) return null;
@@ -19,14 +20,15 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                 className="bg-white p-6 rounded shadow-lg max-w-lg w-full"
                 onClick={(e) => e.stopPropagation()} style={{ maxHeight: '95vh', overflow: 'auto' }}
             >
-                <div className='flex justify-between'>
+                <div className='flex justify-between items-center'>
                     <h2 className="text-2xl font-bold mb-4 text-gray-800">{project.title}</h2>
+
                     {/* cancel button  */}
                     <button
                         onClick={onClose}
-                        className="btn btn-sm btn-outline btn-error flex items-center gap-2"
+                        className="flex items-center gap-2"
                     >
-                        Close
+                        <ImCancelCircle size={28} className='text-red-500 hover:text-red-600 cursor-pointer' />
                     </button>
                 </div>
                 <img
