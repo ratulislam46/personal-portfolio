@@ -7,7 +7,7 @@ I’m Ratul Islam, a passionate and self-motivated web developer from Bangladesh
 This portfolio showcases my skills, education, projects, and contact information, built with modern web technologies for a smooth and responsive user experience.
 
 ## Live Demo Link
-[Live sebsite](https://stellar-cascaron-34092f.netlify.app/)
+[Live sebsite](https://md-ratul-howlader-portfolio.netlify.app/)
 
 ## Features
 - Fully responsive design for mobile, tablet, and desktop  
