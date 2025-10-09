@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../../../public/portfolio-logo.png'
 import '../Header/navbar.css'
-import { IoMoon, IoMoonOutline } from "react-icons/io5";
+import { IoMoon} from "react-icons/io5";
+import { MdLightMode } from "react-icons/md";
 
 
 
@@ -91,7 +92,7 @@ const Navbar = () => {
                             className="text-xl px-2 py-1 mr-3 rounded-full"
                             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                         >
-                            {theme === "light" ? <IoMoon size={28} /> : <IoMoonOutline size={28} />}
+                            {theme === "light" ? <IoMoon size={28} /> : <MdLightMode size={28} />}
                         </button>
                     </div>
                     {/* <a
