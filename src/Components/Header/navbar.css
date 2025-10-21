@@ -1,4 +1,4 @@
-.active-link {
+/* .active-link {
   background: linear-gradient(135deg, #5673c4, #047857); 
   position: relative;
   overflow: hidden;
@@ -24,14 +24,11 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   animation: spin-border 2s linear infinite;
-}
+} */
 
 /* Spinning animation */
-@keyframes spin-border {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+
+
+.active-link {
+  color: rgb(74, 211, 74);
 }

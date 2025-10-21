@@ -2,51 +2,60 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../../../public/portfolio-logo.png'
 import '../Header/navbar.css'
-import { IoMoon} from "react-icons/io5";
+import { IoCallSharp, IoMoon, IoPersonSharp } from "react-icons/io5";
 import { MdLightMode } from "react-icons/md";
-
+import { FaCode, FaHome } from 'react-icons/fa';
+import { GoProjectSymlink } from 'react-icons/go';
+import { PiStudentFill } from 'react-icons/pi';
 
 
 const Navbar = () => {
 
-    const links = <>
-        <li>
-            <Link to='home' smooth={true} duration={500} offset={-200} spy={true}
-                activeClass="active-link" >
-                Home
-            </Link>
-        </li>
-        <li>
-            <Link to='about' smooth={true} duration={500} offset={-200} spy={true}
-                activeClass="active-link">
-                About
-            </Link>
-        </li>
-        <li>
-            <Link to='skills' smooth={true} duration={500} offset={-200} spy={true}
-                activeClass="active-link">
-                Skills
-            </Link>
-        </li>
-        <li>
-            <Link to='education' smooth={true} duration={500} offset={-200} spy={true}
-                activeClass="active-link">
-                Education
-            </Link>
-        </li>
-        <li>
-            <Link to='projects' smooth={true} duration={500} offset={-200} spy={true}
-                activeClass="active-link">
-                Projects
-            </Link>
-        </li>
-        <li>
-            <Link to='contact' smooth={true} duration={500} offset={-70} spy={true}
-                activeClass="active-link">
-                Contact
-            </Link>
-        </li>
-    </>
+    const links =
+        <>
+            <li>
+                <Link to='home' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <FaHome />
+                    Home
+                </Link>
+            </li>
+            <li>
+                <Link to='about' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <IoPersonSharp />
+                    About
+                </Link>
+            </li>
+            <li>
+                <Link to='skills' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <FaCode />
+                    Skills
+                </Link>
+            </li>
+            <li>
+                <Link to='education' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <PiStudentFill />
+                    Education
+                </Link>
+            </li>
+            <li>
+                <Link to='projects' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <GoProjectSymlink />
+                    Projects
+                </Link>
+            </li>
+            <li>
+                <Link to='contact' smooth={true} duration={500} offset={-70} spy={true}
+                    activeClass="active-link">
+                    <IoCallSharp />
+                    Contact
+                </Link>
+            </li>
+        </>
 
     // theme changes state 
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");

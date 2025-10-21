@@ -22,8 +22,8 @@ const About = () => {
                 {/* Profile Image */}
                 <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden mb-8 md:mb-0 flex-shrink-0 shadow-lg border-4 border-primary">
                     <img
-                        src='https://i.postimg.cc/g2sMLpBk/IMG-8213.jpg'
-                        alt="ArFan RaTul"
+                        src='https://i.postimg.cc/0jZGJCv0/Gemini-Generated-Image-o1vfweo1vfweo1vf-1.png'
+                        alt="Md Ratul Howlader"
                         className="w-full h-full object-cover"
                     />
                 </div>
