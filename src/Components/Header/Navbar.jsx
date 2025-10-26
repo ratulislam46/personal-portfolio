@@ -63,6 +63,13 @@ const Navbar = () => {
     useEffect(() => {
         document.documentElement.setAttribute("data-theme", theme);
         localStorage.setItem("theme", theme);
+        
+        // Add or remove 'dark' class for Tailwind dark mode
+        if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
     }, [theme]);
 
     return (

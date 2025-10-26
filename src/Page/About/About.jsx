@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="text-green-400 text-3xl md:text-3xl lg:text-4xl font-bold mb-12">About Me</h2>
           <p className="text-2xl md:text-3xl font-bold mb-4 text-base-content">Passionate Developer from Bangladesh  with expertise in React.js and Node.js</p>
 
-          <div className="font-italic">
+          <div>
             <p className="mb-4 text-xl text-gray-400">
               I’m <span className="font-semibold text-base-content">Md Ratul Howlader</span>. Currently, I am studying in my 2nd year of Honours. Since intermediate, my dream was to become a skillful web developer. My main interest has always been web development.
             </p>
