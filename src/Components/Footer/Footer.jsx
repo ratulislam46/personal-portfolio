@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
     const socialLinks = [
-        { icon: <FaGithub />, href: "https://github.com" },
-        { icon: <CiLinkedin />, href: "https://linkedin.com" },
-        { icon: <FaInstagram />, href: "https://instagram.com" },
-        { icon: <CiFacebook />, href: "https://facebook.com" }
+        { icon: <FaGithub />, href: "https://github.com/ratulislam46" },
+        { icon: <CiLinkedin />, href: "https://www.linkedin.com/in/ratulislambd/" },
+        { icon: <FaInstagram />, href: "https://www.instagram.com/arfan_ratul_46/" },
+        { icon: <CiFacebook />, href: "https://web.facebook.com/mdratul.islam.46" }
     ];
 
     return (
@@ -32,7 +32,6 @@ const Footer = () => {
                     {/* Name & Title */}
                     <div className="space-y-2">
                         <h3 className="text-lg md:text-xl font-bold text-primary">Md Ratul Howlader</h3>
-                        <p className="text-sm text-base-content/60">Full Stack Developer</p>
                     </div>
 
                     {/* Social Links */}
@@ -60,7 +59,7 @@ const Footer = () => {
                     {/* Contact */}
                     <div className="space-y-2 md:text-right">
                         <p className="text-xs text-base-content/50">Let's build something amazing</p>
-                        <a href="mailto:ratul@example.com" className="inline-flex items-center gap-2 text-sm text-primary hover:opacity-80">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arfanratul46@gmail.com" className="inline-flex items-center gap-2 text-sm text-primary hover:opacity-80">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>

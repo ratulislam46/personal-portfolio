@@ -53,16 +53,21 @@ const Contact = () => {
         <section>
             {/* Section Header */}
             <motion.div
-                className="text-center mb-10 md:mb-12"
+                className="text-center mb-16 relative"
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
             >
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-3 md:mb-4">
+                <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">
                     Reach Out To Me
                 </h2>
-                <div className="w-16 md:w-20 h-1 bg-primary mx-auto rounded-full"></div>
+                <div className="inline-block">
+                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
+                        Let's Connect & Build Together
+                    </p>
+                    <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
+                </div>
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12">

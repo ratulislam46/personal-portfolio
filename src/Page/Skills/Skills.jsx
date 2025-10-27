@@ -16,7 +16,6 @@ const Skills = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
             >
-                <div ></div>
                 <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
                     My Technical Skills
                 </h1>

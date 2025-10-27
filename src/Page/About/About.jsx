@@ -7,7 +7,6 @@ const About = () => {
       <div>
         {/* Header Section with Decorative Elements */}
         <div className="text-center mb-16 relative">
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-1  rounded-full"></div>
           <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">
             About Me
           </h2>

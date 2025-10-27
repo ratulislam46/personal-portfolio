@@ -45,18 +45,21 @@ const EducationQualification = () => {
             <div>
                 {/* Header Section */}
                 <motion.div 
-                    className='text-center mb-12 md:mb-16 lg:mb-20'
+                    className='text-center mb-16 relative'
                     variants={headerVariants}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.3 }}
                 >
-                    <h1 className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6'>
-                        <span className='bg-gradient-to-r from-primary via-primary to-primary bg-clip-text text-transparent'>
-                            Educational Qualification
-                        </span>
+                    <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
+                        Educational Qualification
                     </h1>
-                    <div className='w-20 md:w-24 lg:w-32 h-1 md:h-1.5 bg-primary mx-auto rounded-full'></div>
+                    <div className="inline-block">
+                        <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
+                            My Academic Journey
+                        </p>
+                        <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
+                    </div>
                 </motion.div>
 
                 {/* Education Cards Grid */}
