@@ -7,6 +7,7 @@ import { MdLightMode } from "react-icons/md";
 import { FaCode, FaHome } from 'react-icons/fa';
 import { GoProjectSymlink } from 'react-icons/go';
 import { PiStudentFill } from 'react-icons/pi';
+import { GrAchievement, GrServicePlay } from 'react-icons/gr';
 
 
 const Navbar = () => {
@@ -42,10 +43,24 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
+                <Link to='achievements' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <GrAchievement />
+                    Achievements
+                </Link>
+            </li>
+            <li>
                 <Link to='projects' smooth={true} duration={500} offset={-200} spy={true}
                     activeClass="active-link">
                     <GoProjectSymlink />
                     Projects
+                </Link>
+            </li>
+            <li>
+                <Link to='services' smooth={true} duration={500} offset={-200} spy={true}
+                    activeClass="active-link">
+                    <GrServicePlay />
+                    Services
                 </Link>
             </li>
             <li>
@@ -94,7 +109,7 @@ const Navbar = () => {
 
 
                 </div>
-                <div className="navbar-center hidden md:flex">
+                <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal bg-primary/10 border border-primary/20 rounded-full">
                         {
                             links
@@ -111,13 +126,6 @@ const Navbar = () => {
                             {theme === "light" ? <IoMoon size={28} /> : <MdLightMode size={28} />}
                         </button>
                     </div>
-                    {/* <a
-                        href="/resume.pdf"
-                        className="bg-primary text-base-content font-semibold py-2 px-6 rounded-full transition cursor-pointer hidden md:block"
-                        download="Ratul_Resume.pdf"
-                    >
-                        Resume
-                    </a> */}
                 </div>
             </div>
         </div>
