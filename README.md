@@ -29,3 +29,6 @@ This portfolio showcases my skills, education, projects, and contact information
 - AOS (Animate On Scroll)  
 - React Icons  
 - EmailJS
+
+## 📸 Image
+![Home page Screenshot](./assets/home-page.png)
