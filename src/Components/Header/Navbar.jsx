@@ -95,7 +95,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="navbar-center hidden md:flex">
-                    <ul className="menu menu-horizontal border border-[#2e2e86] rounded-full">
+                    <ul className="menu menu-horizontal bg-primary/10 border border-primary/20 rounded-full">
                         {
                             links
                         }
