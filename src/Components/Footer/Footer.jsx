@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="absolute top-0 left-1/4 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-primary/5 rounded-full blur-3xl"></div>
 
-            <div className="relative max-w-7xl mx-auto px-4 md:px-6">
+            <div className="relative container mx-auto">
                 {/* Top Divider */}
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent mb-8"></div>
 

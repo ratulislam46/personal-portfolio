@@ -50,7 +50,7 @@ const Contact = () => {
     ];
 
     return (
-        <section className="px-4 md:px-6 lg:px-8 py-6 md:py-8 bg-base-100 text-base-content">
+        <section>
             {/* Section Header */}
             <motion.div
                 className="text-center mb-10 md:mb-12"
@@ -65,7 +65,7 @@ const Contact = () => {
                 <div className="w-16 md:w-20 h-1 bg-primary mx-auto rounded-full"></div>
             </motion.div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
                 {/* Contact Methods */}
                 <motion.div
                     className="flex flex-col gap-5 md:gap-6"

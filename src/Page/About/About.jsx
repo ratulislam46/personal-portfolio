@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
 
   return (
-    <section className="py-20 px-4">
+    <section>
       <div>
         {/* Header Section with Decorative Elements */}
         <div className="text-center mb-16 relative">

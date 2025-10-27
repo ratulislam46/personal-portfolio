@@ -37,7 +37,7 @@ const Frontend = () => {
     };
 
     return (
-        <section className="px-4 md:px-6 lg:px-8 py-6 md:py-8">
+        <section>
             {/* Section Header */}
             <motion.div
                 className="text-center mb-10 md:mb-12"

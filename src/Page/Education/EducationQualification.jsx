@@ -41,8 +41,8 @@ const EducationQualification = () => {
     };
 
     return (
-        <div className='py-12 md:py-16 lg:py-20'>
-            <div className='mx-2 md:mx-6 lg:mx-auto max-w-7xl px-4'>
+        <div>
+            <div>
                 {/* Header Section */}
                 <motion.div 
                     className='text-center mb-12 md:mb-16 lg:mb-20'
