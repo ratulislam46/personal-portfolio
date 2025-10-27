@@ -104,7 +104,7 @@ const Services = () => {
         <div>
             {/* Header Section */}
             <motion.div 
-                className='text-center relative mb-12'
+                className='text-center relative mb-12g'
                 variants={headerVariants}
                 initial="hidden"
                 whileInView="visible"
