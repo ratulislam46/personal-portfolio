@@ -113,7 +113,7 @@ const Services = () => {
                 <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
                     My Services
                 </h1>
-                <div className="inline-block">
+                <div className="inline-block mb-12">
                     <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
                         What I Can Do For You
                     </p>
