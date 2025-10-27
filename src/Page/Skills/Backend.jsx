@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Loading from '../../Components/Loading/Loading';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
 const Backend = () => {
@@ -7,14 +8,13 @@ const Backend = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const data = fetch('/backend.json')
+        fetch('/backend.json')
             .then(res => res.json())
             .then(data => {
                 setSkills(data)
                 setLoading(false)
             })
     }, [setSkills, setLoading])
-    // console.log(skills);
 
     if (loading) return <Loading></Loading>
 
