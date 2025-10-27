@@ -81,7 +81,7 @@ const SingleProject = ({ project, onDetailsClick }) => {
         {/* Action Buttons */}
         <div className="flex flex-wrap gap-2 mt-auto">
           <motion.button
-            className="btn btn-sm btn-outline btn-secondary flex items-center gap-2 text-xs"
+            className="btn btn-sm btn-outline btn-accent flex items-center gap-2 text-xs"
             onClick={() => onDetailsClick(project)}
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
