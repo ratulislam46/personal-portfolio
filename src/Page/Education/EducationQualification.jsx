@@ -41,7 +41,7 @@ const EducationQualification = () => {
     };
 
     return (
-        <div>
+        <div className='mx-2 md:mx-0'>
             <div>
                 {/* Header Section */}
                 <motion.div 

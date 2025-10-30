@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <section>
-      <div>
+      <div className='mx-2 md:mx-0'>
         {/* Header Section with Decorative Elements */}
         <div className="text-center mb-16 relative">
           <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">

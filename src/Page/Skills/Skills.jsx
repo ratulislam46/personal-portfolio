@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     return (
-        <div>
+        <div className='mx-2 md:mx-0'>
             {/* Header Section */}
             <motion.div
                 className='text-center mb-16 relative'

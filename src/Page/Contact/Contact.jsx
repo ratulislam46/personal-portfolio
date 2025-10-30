@@ -50,7 +50,7 @@ const Contact = () => {
     ];
 
     return (
-        <section>
+        <section className='mx-2 md:mx-0'>
             {/* Section Header */}
             <motion.div
                 className="text-center mb-16 relative"

@@ -101,7 +101,7 @@ const Services = () => {
     ];
 
     return (
-        <div>
+        <div className='mx-2 md:mx-0'>
             {/* Header Section */}
             <motion.div 
                 className='text-center relative mb-12g'
