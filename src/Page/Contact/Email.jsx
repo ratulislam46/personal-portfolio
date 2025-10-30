@@ -39,6 +39,7 @@ const Email = () => {
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    toast.error("Failed to send email. Please try again.")
                 },
             );
         e.target.reset()
@@ -46,7 +47,7 @@ const Email = () => {
 
     return (
         <motion.div
-            className="relative overflow-hidden rounded-xl p-6 md:p-8
+            className="relative overflow-hidden rounded-xl p-4 sm:p-5 md:p-6 lg:p-7
                 bg-base-100 shadow-lg border border-base-content/10"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -54,28 +55,28 @@ const Email = () => {
             transition={{ duration: 0.5 }}
         >
             {/* Decorative Background */}
-            <div className="absolute top-0 left-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
+            <div className="absolute top-0 left-0 w-24 h-24 md:w-32 md:h-32 bg-primary/5 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 right-0 w-24 h-24 md:w-32 md:h-32 bg-primary/5 rounded-full blur-3xl"></div>
 
             <motion.form
                 ref={form}
                 onSubmit={sendEmail}
-                className="space-y-5 md:space-y-6 relative z-10"
+                className="space-y-4 sm:space-y-5 md:space-y-6 relative z-10"
                 variants={formVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
             >
                 <motion.div variants={inputVariants}>
-                    <label className="block text-sm font-semibold text-base-content/70 mb-2">
+                    <label className="block text-xs sm:text-sm md:text-sm font-semibold text-base-content/70 mb-1.5 md:mb-2">
                         Full Name
                     </label>
                     <input
                         name="user_name"
                         type="text"
                         placeholder="Your Name"
-                        className="w-full p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
-                            bg-base-100 text-base-content
+                        className="w-full p-2.5 sm:p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
+                            bg-base-100 text-base-content text-sm sm:text-base
                             focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20
                             transition-all duration-300
                             hover:border-base-content/30"
@@ -84,15 +85,15 @@ const Email = () => {
                 </motion.div>
 
                 <motion.div variants={inputVariants}>
-                    <label className="block text-sm font-semibold text-base-content/70 mb-2">
+                    <label className="block text-xs sm:text-sm md:text-sm font-semibold text-base-content/70 mb-1.5 md:mb-2">
                         Email Address
                     </label>
                     <input
                         name="user_email"
                         type="email"
                         placeholder="Your Email"
-                        className="w-full p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
-                            bg-base-100 text-base-content
+                        className="w-full p-2.5 sm:p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
+                            bg-base-100 text-base-content text-sm sm:text-base
                             focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20
                             transition-all duration-300
                             hover:border-base-content/30"
@@ -101,15 +102,15 @@ const Email = () => {
                 </motion.div>
 
                 <motion.div variants={inputVariants}>
-                    <label className="block text-sm font-semibold text-base-content/70 mb-2">
+                    <label className="block text-xs sm:text-sm md:text-sm font-semibold text-base-content/70 mb-1.5 md:mb-2">
                         Message
                     </label>
                     <textarea
                         name="message"
-                        rows="5"
+                        rows="4"
                         placeholder="Write your message here..."
-                        className="w-full p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
-                            bg-base-100 text-base-content
+                        className="w-full p-2.5 sm:p-3 md:p-3.5 rounded-lg border-2 border-base-content/20 
+                            bg-base-100 text-base-content text-sm sm:text-base
                             focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20
                             transition-all duration-300
                             hover:border-base-content/30
@@ -123,7 +124,7 @@ const Email = () => {
                     variants={inputVariants}
                     whileHover={{ scale: 1.02, y: -2 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full py-3.5 md:py-4 text-sm md:text-base font-bold tracking-wide uppercase rounded-lg 
+                    className="w-full py-3 sm:py-3.5 md:py-4 text-sm md:text-base font-bold tracking-wide uppercase rounded-lg 
                         bg-primary text-base-100 
                         hover:shadow-lg hover:shadow-primary/30
                         transition-all duration-300

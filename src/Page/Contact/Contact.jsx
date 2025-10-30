@@ -1,29 +1,42 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
-// eslint-disable-next-line no-unused-vars
-import { motion } from "framer-motion";
 import Email from "./Email";
-
+import { useEffect, useRef } from "react";
 
 const Contact = () => {
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: { staggerChildren: 0.15 }
-        }
-    };
+    const cardRefs = useRef([]);
 
-    const itemVariants = {
-        hidden: { opacity: 0, y: 30, scale: 0.9 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            scale: 1,
-            transition: { duration: 0.5 }
-        }
-    };
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    // Add delay for staggered effect
+                    setTimeout(() => {
+                        entry.target.classList.add("animate-fade-in-up");
+                    }, index * 150);
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        });
+
+        // Observe all card elements
+        cardRefs.current.forEach((ref) => {
+            if (ref) {
+                observer.observe(ref);
+            }
+        });
+
+        return () => {
+            cardRefs.current.forEach((ref) => {
+                if (ref) {
+                    observer.unobserve(ref);
+                }
+            });
+        };
+    }, []);
 
     const contactMethods = [
         {
@@ -51,14 +64,28 @@ const Contact = () => {
 
     return (
         <section className='mx-2 md:mx-0'>
+            {/* Add CSS for animations */}
+            <style jsx>{`
+                @keyframes fadeInUp {
+                    from {
+                        opacity: 0;
+                        transform: translateY(30px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+                .animate-fade-in-up {
+                    animation: fadeInUp 0.5s ease-out forwards;
+                }
+                .opacity-0 {
+                    opacity: 0;
+                }
+            `}</style>
+
             {/* Section Header */}
-            <motion.div
-                className="text-center mb-16 relative"
-                initial={{ opacity: 0, y: -20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-            >
+            <div className="text-center mb-16 relative opacity-0 animate-fade-in-up">
                 <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">
                     Reach Out To Me
                 </h2>
@@ -68,33 +95,22 @@ const Contact = () => {
                     </p>
                     <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
                 </div>
-            </motion.div>
+            </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
                 {/* Contact Methods */}
-                <motion.div
-                    className="flex flex-col gap-5 md:gap-6"
-                    variants={containerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.2 }}
-                >
+                <div className="flex flex-col gap-5 md:gap-6">
                     {contactMethods.map((method, index) => {
                         const Icon = method.icon;
                         const content = (
-                            <motion.div
+                            <div
+                                ref={(el) => (cardRefs.current[index] = el)}
                                 key={index}
-                                variants={itemVariants}
-                                whileHover={{
-                                    scale: 1.05,
-                                    y: -8,
-                                    transition: { duration: 0.3 }
-                                }}
                                 className="group relative overflow-hidden rounded-xl 
                                     p-5 md:p-6 flex items-center gap-4 md:gap-5
                                     bg-base-100 shadow-lg hover:shadow-xl hover:shadow-primary/20
                                     border border-base-content/10 hover:border-primary/40
-                                    transition-all duration-300"
+                                    transition-all duration-300 opacity-0"
                             >
                                 {/* Decorative Blur */}
                                 <div className="absolute top-0 right-0 w-20 h-20 bg-primary/10 rounded-full blur-2xl 
@@ -126,7 +142,7 @@ const Contact = () => {
                                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-base-content/5 to-transparent 
                                         translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
                                 </div>
-                            </motion.div>
+                            </div>
                         );
 
                         return method.link ? (
@@ -143,17 +159,12 @@ const Contact = () => {
                             content
                         );
                     })}
-                </motion.div>
+                </div>
 
                 {/* Contact Form */}
-                <motion.div
-                    initial={{ opacity: 0, x: 30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
+                <div className="opacity-0 animate-fade-in-up">
                     <Email />
-                </motion.div>
+                </div>
             </div>
         </section>
     );
