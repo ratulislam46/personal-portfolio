@@ -65,7 +65,7 @@ const Contact = () => {
     return (
         <section className='mx-2 md:mx-0'>
             {/* Add CSS for animations */}
-            <style jsx>{`
+            <style>{`
                 @keyframes fadeInUp {
                     from {
                         opacity: 0;
