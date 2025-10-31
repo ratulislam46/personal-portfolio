@@ -20,14 +20,14 @@ const ProjectCard = ({ project, onDetailsClick, className = '' }) => {
         y: -8,
         transition: { duration: 0.3 } 
       }}
-      className={`group relative overflow-hidden bg-base-100 shadow-lg rounded-xl hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 flex flex-col min-h-[480px] border border-base-content/10 hover:border-primary/40 ${className}`}
+      className={`group relative overflow-hidden bg-base-100 shadow-lg rounded-xl hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 flex flex-col h-[500px] border border-base-content/10 hover:border-primary/40 ${className}`}
     >
       {/* Decorative Blur */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl 
         group-hover:bg-primary/20 transition-all duration-500 -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
       
       {/* Image */}
-      <div className="relative w-full h-48 overflow-hidden">
+      <div className="relative w-full h-40 overflow-hidden">
         <motion.img
           src={image}
           alt={title}
@@ -38,24 +38,24 @@ const ProjectCard = ({ project, onDetailsClick, className = '' }) => {
 
       {/* Content */}
       <div className="relative z-10 flex-1 p-5 flex flex-col">
-        <div>
-          <h3 className="text-xl font-semibold mb-3 text-base-content group-hover:text-primary transition-colors duration-300">
+        <div className="flex-grow">
+          <h3 className="text-xl font-semibold mb-2 text-base-content group-hover:text-primary transition-colors duration-300 line-clamp-1">
             {title}
           </h3>
-          <p className="text-sm text-base-content/70 mb-4 leading-relaxed">
+          <p className="text-sm text-base-content/70 mb-3 leading-relaxed line-clamp-3">
             {description}
           </p>
 
           {/* Technologies */}
-          <div className="flex flex-wrap gap-2 mb-5">
+          <div className="flex flex-wrap gap-1 overflow-y-auto">
             {technologies?.map((tech, techIndex) => (
               <motion.span
                 key={techIndex}
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ delay: techIndex * 0.05 }}
-                className="bg-primary/10 border border-primary/30 text-base-content px-3 py-1 rounded-lg text-xs font-medium
-                  hover:bg-primary/20 hover:border-primary/50 transition-all duration-200"
+                className="bg-primary/10 border border-primary/30 text-base-content px-2 py-1 rounded-lg text-xs font-medium
+                  hover:bg-primary/20 hover:border-primary/50 transition-all duration-200 whitespace-nowrap"
               >
                 {tech}
               </motion.span>
@@ -64,7 +64,7 @@ const ProjectCard = ({ project, onDetailsClick, className = '' }) => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-wrap gap-2 mt-auto">
+        <div className="flex flex-wrap gap-2 pt-2 border-t border-base-content/10">
           <DetailsButton onClick={() => onDetailsClick(project)} />
           
           {liveLink && <LiveButton href={liveLink} />}
