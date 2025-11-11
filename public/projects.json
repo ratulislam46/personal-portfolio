@@ -14,7 +14,7 @@
       "MongoDB",
       "Stripe"
     ],
-    "image": "https://i.postimg.cc/t4XMpTDh/fitness-home.png",
+    "image": "https://i.postimg.cc/XNsC64GN/Screenshot-2025-11-11-204435.png",
     "liveLink": "https://whimsical-praline-dd388c.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/fitness-client",
     "challenges": [
@@ -24,7 +24,7 @@
   },
   {
     "id": 6,
-    "title": "RideX",
+    "title": "RideX - Ride Sharing Platform",
     "description": "RideX is a smart ride-sharing platform that connects riders and passengers in real-time. It provides seamless trip management, intelligent ride tracking, rider earnings overview, and secure authentication. Designed with a clean and responsive interface for a smooth user experience.",
     "technologies": [
       "Next.js",
@@ -87,7 +87,7 @@
       "Node.js",
       "Express"
     ],
-    "image": "https://i.postimg.cc/FR0pTYDX/open-journal.png",
+    "image": "https://i.postimg.cc/wj8xSGVt/open-journal.png",
     "liveLink": "https://wondrous-paprenjak-d5a5de.netlify.app/",
     "githubLink-client": "https://github.com/ratulislam46/openjournal-client",
     "githubLink-server": "https://github.com/ratulislam46/openjournal-server",

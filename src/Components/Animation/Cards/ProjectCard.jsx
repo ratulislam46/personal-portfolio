@@ -13,12 +13,7 @@ const ProjectCard = ({ project, onDetailsClick, className = '' }) => {
   } = project;
 
   return (
-    <motion.div
-      whileHover={{ 
-        scale: 1.05, 
-        y: -8,
-        transition: { duration: 0.3 } 
-      }}
+    <div
       className={`group relative overflow-hidden bg-base-100 shadow-lg rounded-xl hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 flex flex-col h-[500px] border border-base-content/10 hover:border-primary/40 ${className}`}
     >
       {/* Decorative Blur */}
@@ -76,7 +71,7 @@ const ProjectCard = ({ project, onDetailsClick, className = '' }) => {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-base-content/5 to-transparent 
           translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
