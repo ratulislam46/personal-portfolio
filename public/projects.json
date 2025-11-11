@@ -23,6 +23,32 @@
     ]
   },
   {
+    "id": 6,
+    "title": "RideX",
+    "description": "RideX is a smart ride-sharing platform that connects riders and passengers in real-time. It provides seamless trip management, intelligent ride tracking, rider earnings overview, and secure authentication. Designed with a clean and responsive interface for a smooth user experience.",
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Firebase",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "React Router",
+      "JWT",
+      "Axios"
+    ],
+    "image": "https://i.postimg.cc/Y9D2GLpf/RideX.png",
+    "liveLink": "https://ridex-ride-sharing.vercel.app",
+    "githubLink-client": "https://github.com/rubel6610/RideX-Frontend",
+    "githubLink-server": "https://github.com/rubel6610/ridex-backend",
+    "challenges": [
+      "Developed a real-time ride tracking system that allows users and riders to view each other’s live location on Google Maps.",
+      "Implemented secure authentication and authorization using Firebase and JWT for multiple user roles (Admin, Rider, User).",
+      "Created Rider Dashboard featuring available rides access, live tracking, and ride history for efficient management."
+    ]
+  },
+  {
     "id": 2,
     "title": "Profast - Delivery Tracker App",
     "description": "A full-stack parcel delivery management system where users can create parcels, riders can manage deliveries, and admins can track the overall system efficiently.",
