@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import { ImCancelCircle } from "react-icons/im";
-// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ProjectDetailsModal = ({ project, onClose }) => {
@@ -48,7 +47,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                 initial="hidden"
                 animate="visible"
                 exit="hidden"
-                className="fixed inset-0 backdrop-blur-sm bg-black/60 flex justify-center items-center z-50 px-4 py-6"
+                className="fixed inset-0 backdrop-blur-sm bg-black/60 flex justify-center items-center z-50 px-4 py-6 mt-20"
                 onClick={onClose}
             >
                 <motion.div
@@ -56,7 +55,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
                     initial="hidden"
                     animate="visible"
                     exit="exit"
-                    className="relative bg-base-100 rounded-2xl shadow-2xl max-w-2xl w-full border border-base-content/10 overflow-hidden"
+                    className="relative bg-base-100 rounded-2xl shadow-2xl max-w-2xl w-full border border-base-content/10 "
                     onClick={(e) => e.stopPropagation()}
                     style={{ maxHeight: '90vh' }}
                 >
