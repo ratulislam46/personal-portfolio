@@ -24,7 +24,7 @@ const About = () => {
             <img 
               src="../../../public/developer.png" 
               alt="Developer Image" 
-              className="w-full max-w-md mx-auto md:max-w-full h-auto"
+              className="w-3/4 max-w-xs mx-auto md:max-w-full h-auto"
             />
           </div>
           <div className="space-y-6 md:space-y-8 md:w-1/2 lg:w-3/5">
