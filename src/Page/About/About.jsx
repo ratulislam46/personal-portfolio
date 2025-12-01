@@ -19,15 +19,15 @@ const About = () => {
         </div>
 
         {/* Main Content Card */}
-        <div className="mx-1 md:mx-0 md:flex md:flex-row-reverse justify-between items-center gap-4">
-          <div className="mb-8 md:mb-0 md:w-1/2 lg:w-2/5">
+        <div className="mx-1 md:mx-0">
+          {/* <div className="mb-8 md:mb-0 md:w-1/2 lg:w-2/5">
             <img 
               src="../../../public/developer.png" 
               alt="Developer Image" 
               className="w-3/4 max-w-xs mx-auto md:max-w-full h-auto"
             />
-          </div>
-          <div className="space-y-6 md:space-y-8 md:w-1/2 lg:w-3/5">
+          </div> */}
+          <div className="space-y-6 md:space-y-8">
             <p className="text-lg md:text-xl lg:text-2xl text-gray-400 leading-relaxed border-l-4 border-primary pl-6 py-2">
               I'm <span className="font-semibold text-base-content bg-primary/10 px-2 py-1 rounded">Md Ratul Howlader</span>. Since intermediate, my dream was to become a skillful web developer. My main interest has always been web development.
             </p>
