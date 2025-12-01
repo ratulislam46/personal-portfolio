@@ -10,7 +10,8 @@ const About = () => {
         words: [
             "Frontend Developer",
             "Full Stack Developer",
-            "MERN Stack Developer"
+            "MERN Stack Developer",
+            "Junior Sofware Engineer"
         ],
         loop: 0,
         delaySpeed: 2000,
@@ -101,7 +102,7 @@ const About = () => {
                         className="text-base sm:text-lg md:text-xl lg:text-2xl text-base-content max-w-2xl mx-auto md:mx-0 leading-relaxed"
                         variants={itemVariants}
                     >
-                        I build responsive and scalable web applications using clean code and modern technologies..
+                        I build SEO-friendly and scalable web applications using clean code and modern technologies.
                     </motion.p>
 
                     {/* Social link  */}

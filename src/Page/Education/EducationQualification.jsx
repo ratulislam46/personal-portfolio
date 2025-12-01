@@ -135,7 +135,7 @@ const EducationQualification = () => {
                                 <span className='inline-flex items-center px-3 md:px-4 py-1.5 md:py-2 
                                     bg-primary/10 border border-primary/30 rounded-lg md:rounded-xl
                                     text-sm md:text-base font-medium text-base-content'>
-                                    📅 (2022-23) 2<sup>nd</sup> Year
+                                    📅 (2022-23) 3<sup>rd</sup> Year
                                 </span>
                                 <span className='inline-flex items-center px-3 md:px-4 py-1.5 md:py-2 
                                     bg-primary/10 border border-primary/30 rounded-lg md:rounded-xl
