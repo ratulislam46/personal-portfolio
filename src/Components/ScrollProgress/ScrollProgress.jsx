@@ -25,7 +25,6 @@ const ScrollProgress = () => {
 
     //   console.log(scrollPercent);
     if (scrollPercent === 0) return null;
-    
 
     console.log(scrollPercent);
 
