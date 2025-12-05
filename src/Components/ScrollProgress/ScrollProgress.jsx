@@ -10,6 +10,7 @@ const ScrollProgress = () => {
                 document.body.scrollHeight - window.innerHeight;
 
             const totalScroll = (scrollTop / docHeight) * 100;
+            if (totalScroll > 100) totalScroll = 100; 
             setScrollPercent(totalScroll);
         };
 
@@ -23,7 +24,10 @@ const ScrollProgress = () => {
     };
 
     //   console.log(scrollPercent);
-    if (scrollPercent === 0) return null
+    if (scrollPercent === 0) return null;
+    
+
+    console.log(scrollPercent);
 
         return (
             <div

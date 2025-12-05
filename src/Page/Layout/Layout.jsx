@@ -24,7 +24,7 @@ const Layout = () => {
                         ease: "easeInOut"
                     }}
                 />
-                
+
                 {/* Animated Gradient Orb 2 - Bottom Right */}
                 <motion.div
                     className="absolute bottom-0 right-0 w-72 h-72 md:w-96 md:h-96 bg-secondary/20 rounded-full blur-3xl"
@@ -39,7 +39,7 @@ const Layout = () => {
                         ease: "easeInOut"
                     }}
                 />
-                
+
                 {/* Animated Gradient Orb 3 - Center */}
                 <motion.div
                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 md:w-80 md:h-80 bg-accent/15 rounded-full blur-3xl"
@@ -64,7 +64,7 @@ const Layout = () => {
             <footer className='border-t border border-base-content/10 relative z-10'>
                 <Footer></Footer>
             </footer>
-            <ScrollProgress/>
+            <ScrollProgress />
         </div>
     );
 };
