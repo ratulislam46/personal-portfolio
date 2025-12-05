@@ -92,7 +92,7 @@ const Navbar = () => {
             <div className='navbar container mx-auto'>
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                         </div>
                         <ul
@@ -109,6 +109,8 @@ const Navbar = () => {
 
 
                 </div>
+
+                {/* large device routes links  */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal bg-primary/10 border border-primary/20 rounded-full">
                         {
@@ -116,6 +118,8 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
+
+                {/* dark/light toggle button  */}
                 <div className="navbar-end">
                     {/* Right side toggle button */}
                     <div className="flex-none rounded-full">
