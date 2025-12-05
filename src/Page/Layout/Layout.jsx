@@ -3,6 +3,7 @@ import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer'
 import { Outlet } from 'react-router';
 import { motion } from 'framer-motion';
+import ScrollProgress from '../../Components/ScrollProgress/ScrollProgress';
 
 const Layout = () => {
     return (
@@ -63,6 +64,7 @@ const Layout = () => {
             <footer className='border-t border border-base-content/10 relative z-10'>
                 <Footer></Footer>
             </footer>
+            <ScrollProgress/>
         </div>
     );
 };

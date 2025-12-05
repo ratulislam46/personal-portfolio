@@ -12,6 +12,8 @@
       "Node.js",
       "Express",
       "MongoDB",
+      "JWT",
+      "TanStackQuery",
       "Stripe"
     ],
     "image": "https://i.postimg.cc/XNsC64GN/Screenshot-2025-11-11-204435.png",
