@@ -9,8 +9,8 @@ const ScrollProgress = () => {
             const docHeight =
                 document.body.scrollHeight - window.innerHeight;
 
-            const totalScroll = (scrollTop / docHeight) * 100;
-            if (totalScroll > 100) totalScroll = 100; 
+            let totalScroll = (scrollTop / docHeight) * 100;
+            if (totalScroll > 100) totalScroll = 100;
             setScrollPercent(totalScroll);
         };
 
@@ -28,14 +28,14 @@ const ScrollProgress = () => {
 
     // console.log(scrollPercent);
 
-        return (
-            <div
-                onClick={scrollToTop}
-                className="fixed bottom-6 right-6 w-14 h-14 text-lg font-bold rounded-full bg-primary text-white flex items-center justify-center cursor-pointer shadow-xl z-50 border-4"
-            >
-                {Math.round(scrollPercent)}%
-            </div>
-        );
+    return (
+        <div
+            onClick={scrollToTop}
+            className="fixed bottom-6 right-6 w-14 h-14 text-lg font-bold rounded-full bg-primary text-white flex items-center justify-center cursor-pointer shadow-xl z-50 border-4"
+        >
+            {Math.round(scrollPercent)}%
+        </div>
+    );
 };
 
 export default ScrollProgress;
