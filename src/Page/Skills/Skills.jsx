@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Loading from '../../Components/Loading/Loading';
 import SkillCard from '../../Components/Animation/Cards/SkillCard';
-import SkillSectionHeader from '../../Components/SectionHeader/SkillSectionHeader';
-// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
+import SectionHeader from '../../Components/SectionHeader/SectionHeader';
 
 const Skills = () => {
 
@@ -41,23 +40,10 @@ const Skills = () => {
     return (
         <div className='mx-2 md:mx-0'>
             {/* Header Section */}
-            <motion.div
-                className='text-center mb-16 relative'
-                initial={{ opacity: 0, y: -20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-            >
-                <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
-                    My Technical Skills
-                </h1>
-                <div className="inline-block">
-                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
-                        Technologies & Tools I Work With
-                    </p>
-                    <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
-                </div>
-            </motion.div>
+            <SectionHeader
+                title="My Technical Skills"
+                subtitle="Technologies & Tools I Work With"
+            />
 
             {/* All Skills Section */}
             <section className='mb-16'>

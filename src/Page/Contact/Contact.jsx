@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import Email from "./Email";
 import { useEffect, useRef } from "react";
+import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 
 const Contact = () => {
     const cardRefs = useRef([]);
@@ -85,17 +86,10 @@ const Contact = () => {
             `}</style>
 
             {/* Section Header */}
-            <div className="text-center mb-16 relative opacity-0 animate-fade-in-up">
-                <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">
-                    Reach Out To Me
-                </h2>
-                <div className="inline-block">
-                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
-                        Let's Connect & Build Together
-                    </p>
-                    <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
-                </div>
-            </div>
+            <SectionHeader
+                title="Reach Out To Me"
+                subtitle="Let's Connect & Build Together"
+            />
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
                 {/* Contact Methods */}
@@ -120,9 +114,9 @@ const Contact = () => {
                                 <div className="relative z-10 p-3 md:p-3.5 bg-primary/10 rounded-xl 
                                     group-hover:bg-primary/20 transition-all duration-300
                                     group-hover:scale-110 group-hover:rotate-6 flex-shrink-0">
-                                    <Icon 
-                                        size={method.iconSize} 
-                                        className="text-primary group-hover:text-primary transition-colors duration-300" 
+                                    <Icon
+                                        size={method.iconSize}
+                                        className="text-primary group-hover:text-primary transition-colors duration-300"
                                     />
                                 </div>
 

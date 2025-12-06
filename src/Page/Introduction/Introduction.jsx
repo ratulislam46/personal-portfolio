@@ -143,7 +143,7 @@ const About = () => {
                         variants={itemVariants}
                     >
                         <motion.a
-                            href="https://drive.google.com/file/d/1uuIR5uQ9elBCX9YyTW9Ln2cRR8s3j6z8/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1D9674yQ3PqMiFjLuZBTq_91lVpKQ4dJB/view?usp=drive_link"
                             className="inline-block bg-primary hover:bg-primary/90 text-base-100 font-bold py-3 px-8 sm:py-4 sm:px-10 md:py-4 md:px-12 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 text-sm sm:text-base md:text-lg"
                             target="_blank"
                             download="Ratul_Resume.pdf"

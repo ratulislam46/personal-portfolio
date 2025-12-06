@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaCode, FaMobileAlt, FaPaintBrush, FaServer, FaLaptopCode } from 'react-icons/fa';
 import { MdDesignServices } from 'react-icons/md';
+import SectionHeader from '../../Components/SectionHeader/SectionHeader';
 
 const Services = () => {
 
@@ -103,26 +104,13 @@ const Services = () => {
     return (
         <div className='mx-2 md:mx-0'>
             {/* Header Section */}
-            <motion.div 
-                className='text-center relative mb-12g'
-                variants={headerVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.3 }}
-            >
-                <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
-                    My Services
-                </h1>
-                <div className="inline-block mb-12">
-                    <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
-                        What I Can Do For You
-                    </p>
-                    <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
-                </div>
-            </motion.div>
+            <SectionHeader
+                title="My Services"
+                subtitle="What I Can Do For You"
+            />
 
             {/* Services Grid */}
-            <motion.div 
+            <motion.div
                 className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8'
                 variants={containerVariants}
                 initial="hidden"
@@ -135,10 +123,10 @@ const Services = () => {
                         <motion.div
                             key={service.id}
                             variants={itemVariants}
-                            whileHover={{ 
-                                scale: 1.02, 
+                            whileHover={{
+                                scale: 1.02,
                                 y: -8,
-                                transition: { duration: 0.3 } 
+                                transition: { duration: 0.3 }
                             }}
                             className='group relative overflow-hidden rounded-2xl md:rounded-3xl 
                             bg-base-100
@@ -151,7 +139,7 @@ const Services = () => {
                                 group-hover:bg-primary/20 transition-all duration-500 -translate-y-1/2 translate-x-1/2'></div>
                             <div className='absolute bottom-0 left-0 w-24 h-24 md:w-32 md:h-32 bg-secondary/10 rounded-full blur-2xl 
                                 group-hover:bg-secondary/20 transition-all duration-500 translate-y-1/2 -translate-x-1/2'></div>
-                            
+
                             {/* Card Content */}
                             <div className='relative z-10 p-6 md:p-8'>
                                 {/* Icon Badge */}
@@ -166,16 +154,16 @@ const Services = () => {
                                 <h2 className='text-xl md:text-2xl font-bold text-primary mb-3'>
                                     {service.title}
                                 </h2>
-                                
+
                                 {/* Short Description */}
                                 <p className='text-sm md:text-base text-base-content/70 mb-4'>
                                     {service.description}
                                 </p>
-                                
+
                                 {/* Divider */}
                                 <div className='w-16 h-1 bg-primary rounded-full mb-4 
                                     group-hover:w-full transition-all duration-500'></div>
-                                
+
                                 {/* Features List */}
                                 <ul className='space-y-2 md:space-y-3'>
                                     {service.features.map((feature, index) => (

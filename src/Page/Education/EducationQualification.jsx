@@ -1,6 +1,7 @@
 import React from 'react';
 import TypeWriter from '../../Components/Typewriter/TypeWriter';
 import { motion } from 'framer-motion';
+import SectionHeader from '../../Components/SectionHeader/SectionHeader';
 
 const EducationQualification = () => {
     // Animation variants
@@ -44,26 +45,13 @@ const EducationQualification = () => {
         <div className='mx-2 md:mx-0'>
             <div>
                 {/* Header Section */}
-                <motion.div 
-                    className='text-center mb-16 relative'
-                    variants={headerVariants}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.3 }}
-                >
-                    <h1 className='text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight'>
-                        Educational Qualification
-                    </h1>
-                    <div className="inline-block">
-                        <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
-                            My Academic Journey
-                        </p>
-                        <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
-                    </div>
-                </motion.div>
+                <SectionHeader
+                    title="Educational Qualification"
+                    subtitle="My Academic Journey"
+                />
 
                 {/* Education Cards Grid */}
-                <motion.div 
+                <motion.div
                     className='grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-12'
                     variants={containerVariants}
                     initial="hidden"
@@ -74,23 +62,23 @@ const EducationQualification = () => {
                     {/* BBA Card */}
                     <motion.div
                         variants={itemVariants}
-                        whileHover={{ 
-                            scale: 1.02, 
+                        whileHover={{
+                            scale: 1.02,
                             y: -8,
-                            transition: { duration: 0.3 } 
+                            transition: { duration: 0.3 }
                         }}
                         className='group relative overflow-hidden rounded-2xl md:rounded-3xl 
                         bg-base-100
                         shadow-xl hover:shadow-2xl hover:shadow-primary/20
                         border border-base-content/10 hover:border-primary/40
                         transition-all duration-500 ease-out'>
-                        
+
                         {/* Decorative Background Elements */}
                         <div className='absolute top-0 right-0 w-32 h-32 md:w-40 md:h-40 bg-primary/10 rounded-full blur-3xl 
                             group-hover:bg-primary/20 transition-all duration-500 -translate-y-1/2 translate-x-1/2'></div>
                         <div className='absolute bottom-0 left-0 w-24 h-24 md:w-32 md:h-32 bg-primary/10 rounded-full blur-2xl 
                             group-hover:bg-primary/20 transition-all duration-500 translate-y-1/2 -translate-x-1/2'></div>
-                        
+
                         {/* Card Content */}
                         <div className='relative z-10 p-6 md:p-8 lg:p-10'>
                             {/* Icon Badge */}
@@ -110,15 +98,15 @@ const EducationQualification = () => {
                                 group-hover:opacity-80 transition-all duration-300'>
                                 Bachelor of Business Administration
                             </h1>
-                            
+
                             <p className='text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-base-content/80'>
                                 (BBA)
                             </p>
-                            
+
                             {/* Divider */}
                             <div className='w-16 md:w-20 h-1 bg-primary rounded-full mb-4 md:mb-5 
                                 group-hover:w-full transition-all duration-500'></div>
-                            
+
                             {/* University Info */}
                             <div className='space-y-2 md:space-y-3 mb-4 md:mb-6'>
                                 <p className='text-base md:text-lg lg:text-xl font-semibold text-base-content
@@ -129,7 +117,7 @@ const EducationQualification = () => {
                                     <span>National University, Bangladesh</span>
                                 </p>
                             </div>
-                            
+
                             {/* Year & Department Badge */}
                             <div className='flex flex-wrap gap-2 md:gap-3'>
                                 <span className='inline-flex items-center px-3 md:px-4 py-1.5 md:py-2 
@@ -155,23 +143,23 @@ const EducationQualification = () => {
                     {/* HSC Card */}
                     <motion.div
                         variants={itemVariants}
-                        whileHover={{ 
-                            scale: 1.02, 
+                        whileHover={{
+                            scale: 1.02,
                             y: -8,
-                            transition: { duration: 0.3 } 
+                            transition: { duration: 0.3 }
                         }}
                         className='group relative overflow-hidden rounded-2xl md:rounded-3xl 
                         bg-base-100
                         shadow-xl hover:shadow-2xl hover:shadow-primary/20
                         border border-base-content/10 hover:border-primary/40
                         transition-all duration-500 ease-out'>
-                        
+
                         {/* Decorative Background Elements */}
                         <div className='absolute top-0 right-0 w-32 h-32 md:w-40 md:h-40 bg-primary/10 rounded-full blur-3xl 
                             group-hover:bg-primary/20 transition-all duration-500 -translate-y-1/2 translate-x-1/2'></div>
                         <div className='absolute bottom-0 left-0 w-24 h-24 md:w-32 md:h-32 bg-primary/10 rounded-full blur-2xl 
                             group-hover:bg-primary/20 transition-all duration-500 translate-y-1/2 -translate-x-1/2'></div>
-                        
+
                         {/* Card Content */}
                         <div className='relative z-10 p-6 md:p-8 lg:p-10'>
                             {/* Icon Badge */}
@@ -190,15 +178,15 @@ const EducationQualification = () => {
                                 group-hover:opacity-80 transition-all duration-300'>
                                 Higher Secondary Certificate
                             </h1>
-                            
+
                             <p className='text-lg md:text-xl lg:text-2xl font-bold mb-2 md:mb-3 text-base-content/80'>
                                 (HSC)
                             </p>
-                            
+
                             {/* Divider */}
                             <div className='w-16 md:w-20 h-1 bg-primary rounded-full mb-4 md:mb-5 
                                 group-hover:w-full transition-all duration-500'></div>
-                            
+
                             {/* College Info */}
                             <div className='space-y-2 md:space-y-3 mb-4 md:mb-6'>
                                 <p className='text-base md:text-lg lg:text-xl font-semibold text-base-content
@@ -209,7 +197,7 @@ const EducationQualification = () => {
                                     <span>Govt. Barishal College, Barishal</span>
                                 </p>
                             </div>
-                            
+
                             {/* Year & Department Badge */}
                             <div className='flex flex-wrap gap-2 md:gap-3'>
                                 <span className='inline-flex items-center px-3 md:px-4 py-1.5 md:py-2 

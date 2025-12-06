@@ -7,11 +7,11 @@ const About = () => {
       <div className='mx-2 md:mx-0'>
         {/* Header Section with Decorative Elements */}
         <div className="text-center mb-16 relative">
-          <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-8 tracking-tight">
+          <h2 className="text-primary text-3xl md:text-4xl lg:text-5xl font-bold mb-4 mt-8 tracking-tight">
             About Me
           </h2>
           <div className="inline-block">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-base-content leading-relaxed">
+            <p className="text-xl md:text-2xl lg:text-3xl font-bold text-base-content leading-relaxed">
               Passionate Developer from Bangladesh with expertise in React.js and Node.js
             </p>
             <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent mt-4 rounded-full"></div>
