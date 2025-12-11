@@ -1,12 +1,14 @@
-import React from 'react';
-import Skills from '../Skills/Skills';
+import React, { Suspense } from 'react';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Introduction from '../Introduction/Introduction';
-import EducationQualification from '../Education/EducationQualification';
-import Projects from '../Projects/Projects';
-import Acheivement from '../Acheivement/Acheivement';
-import Services from '../Services/Services';
+import Loading from '../../Components/Loading/Loading';
+
+const Projects = React.lazy(() => import('../Projects/Projects'));
+const Skills = React.lazy(() => import('../Skills/Skills'));
+const Services = React.lazy(() => import('../Services/Services'));
+const Acheivement = React.lazy(() => import('../Acheivement/Acheivement'));
+
 
 const Home = () => {
     return (
@@ -20,23 +22,27 @@ const Home = () => {
             </section>
 
             <section name="skills" className='mb-8 py-8'>
-                <Skills></Skills>
+                <Suspense fallback={<Loading />}>
+                    <Skills></Skills>
+                </Suspense>
             </section>
 
-            {/* <section name="education" className='mb-8 py-8'>
-                <EducationQualification></EducationQualification>
-            </section> */}
-
             <section name="achievements" className='mb-8 py-8'>
-                <Acheivement></Acheivement>
+                <Suspense fallback={<Loading />}>
+                    <Acheivement></Acheivement>
+                </Suspense>
             </section>
 
             <section name="projects" className='mb-8 py-8'>
-                <Projects></Projects>
+                <Suspense fallback={<Loading />}>
+                    <Projects></Projects>
+                </Suspense>
             </section>
-            
+
             <section name="services" className='mb-8 py-8'>
-                <Services></Services>
+                <Suspense fallback={<Loading />}>
+                    <Services />
+                </Suspense>
             </section>
 
             <section name="contact" className='mb-8 py-8'>

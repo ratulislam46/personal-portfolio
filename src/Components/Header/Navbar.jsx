@@ -36,13 +36,6 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link to='education' smooth={true} duration={500} offset={-200} spy={true}
-                    activeClass="active-link">
-                    <PiStudentFill />
-                    Education
-                </Link>
-            </li>
-            <li>
                 <Link to='achievements' smooth={true} duration={500} offset={-200} spy={true}
                     activeClass="active-link">
                     <GrAchievement />
