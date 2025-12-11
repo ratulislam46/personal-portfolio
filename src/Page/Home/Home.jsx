@@ -23,9 +23,9 @@ const Home = () => {
                 <Skills></Skills>
             </section>
 
-            <section name="education" className='mb-8 py-8'>
+            {/* <section name="education" className='mb-8 py-8'>
                 <EducationQualification></EducationQualification>
-            </section>
+            </section> */}
 
             <section name="achievements" className='mb-8 py-8'>
                 <Acheivement></Acheivement>
